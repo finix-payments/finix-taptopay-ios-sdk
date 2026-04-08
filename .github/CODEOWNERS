@@ -1,0 +1,3 @@
+# DB/Terraform changes must be reviewed by DB/DevOps
+.github/**  @finix-payments/finix-devops
+*.sql @finix-payments/finix-dba
