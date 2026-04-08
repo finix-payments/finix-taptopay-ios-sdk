@@ -1,0 +1,14 @@
+name: Validate Commit Message
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches:
+      - main
+permissions:
+  id-token: write
+  contents: write
+  pull-requests: read
+jobs:
+  pr-commits:
+    uses: finix-payments/finix-github-actions/.github/workflows/pull-request-commit-check.yaml@main
