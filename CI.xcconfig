@@ -1,0 +1,12 @@
+//
+//  CI.xcconfig
+//  FinixTapToPaySDK
+//
+//  Configuration for CI builds to create distributable XCFramework
+//
+
+// Skip install must be NO for CI builds to include framework in archive
+SKIP_INSTALL = NO
+
+// Build libraries for distribution to support module stability
+BUILD_LIBRARIES_FOR_DISTRIBUTION = YES
