@@ -14,24 +14,10 @@ let package = Package(
             targets: ["FinixTapToPaySDK"]
         ),
     ],
-    dependencies: [
-        .package(url: "https://github.com/DataDog/dd-sdk-ios", exact: "3.6.1"),
-    ],
     targets: [
-        .target(
+        .binaryTarget(
             name: "FinixTapToPaySDK",
-            dependencies: [
-                .product(name: "DatadogCore", package: "dd-sdk-ios"),
-                .product(name: "DatadogLogs", package: "dd-sdk-ios"),
-                .product(name: "DatadogCrashReporting", package: "dd-sdk-ios"),
-            ],
-            path: "FinixTapToPaySDK",
-            exclude: [
-                "Info.plist",
-            ],
-            swiftSettings: [
-                .define("INTERNAL_BUILD", .when(configuration: .debug)),
-            ]
+            path: "Sources/FinixTapToPaySDK.xcframework"
         ),
     ]
 )
