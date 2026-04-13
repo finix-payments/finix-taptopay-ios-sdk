@@ -1,0 +1,170 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FinixTapToPaySDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import Combine
+import CryptoKit
+import Foundation
+import ProximityReader
+import Security
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @available(iOS 16.4, *)
+final public class FinixTapToPay {
+  public init(configuration: FinixTapToPaySDK.TapToPayConfiguration)
+  final public func isAccountLinked() async -> Swift.Bool
+  final public func linkAccount() async throws
+  final public func prepareReader() async throws
+  final public func startTransaction(amount: Swift.Int, currency: Swift.String) async throws -> FinixTapToPaySDK.TapToPayTransactionResult
+  final public func cancelTransaction() async throws
+  public static func isSupported() -> Swift.Bool
+  final public func clearLinkStatus()
+  @available(iOS 16.4, *)
+  final public func forceRefreshLinkStatus() async -> Swift.Bool
+  final public func refreshConfiguration()
+  final public func clearAllCaches()
+  @objc deinit
+}
+public struct TapToPayConfiguration {
+  public let credentials: FinixTapToPaySDK.APICredentials
+  public let merchant: FinixTapToPaySDK.MerchantInfo
+  public let environment: FinixTapToPaySDK.Environment
+  public let transactionOptions: FinixTapToPaySDK.TransactionOptions
+  public let deviceId: Swift.String
+  public init(credentials: FinixTapToPaySDK.APICredentials, merchant: FinixTapToPaySDK.MerchantInfo, environment: FinixTapToPaySDK.Environment, deviceId: Swift.String, transactionOptions: FinixTapToPaySDK.TransactionOptions = TransactionOptions())
+}
+public struct TransactionOptions {
+  public let returnReadResultImmediately: Swift.Bool
+  public let autoPrepareOnForeground: Swift.Bool
+  public let linkStatusCacheDuration: Foundation.TimeInterval
+  public init(returnReadResultImmediately: Swift.Bool = true, autoPrepareOnForeground: Swift.Bool = true, linkStatusCacheDuration: Foundation.TimeInterval = 300)
+}
+public struct APICredentials {
+  public let username: Swift.String
+  public let password: Swift.String
+  public init(username: Swift.String, password: Swift.String)
+}
+public struct MerchantInfo {
+  public let merchantId: Swift.String
+  public let merchantMid: Swift.String
+  public let merchantName: Swift.String
+  public init(merchantId: Swift.String, merchantMid: Swift.String, merchantName: Swift.String)
+}
+public enum Environment {
+  case sandbox
+  case production
+  public var baseURL: Swift.String {
+    get
+  }
+  public static func == (a: FinixTapToPaySDK.Environment, b: FinixTapToPaySDK.Environment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@available(*, deprecated, message: "Device creation removed from SDK. Pass device ID directly to TapToPayConfiguration.")
+public protocol TapToPayDeviceRepository {
+  func createTapToPayDevice(merchantId: Swift.String, request: FinixTapToPaySDK.TapToPayDeviceRequest) async throws -> FinixTapToPaySDK.TapToPayDeviceResponse
+}
+@available(*, deprecated, message: "Device creation removed from SDK. Create devices via your backend.")
+public struct TapToPayDeviceRequest {
+  public let name: Swift.String
+  public let description: Swift.String?
+  public let serialNumber: Swift.String
+  public let appBundleId: Swift.String
+  public let model: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(name: Swift.String, description: Swift.String? = nil, serialNumber: Swift.String, appBundleId: Swift.String, model: Swift.String = "IOS_TAP_TO_PAY")
+  #endif
+}
+@available(*, deprecated, message: "Device creation removed from SDK. Get device ID from your backend.")
+public struct TapToPayDeviceResponse {
+  public let id: Swift.String
+  public let model: Swift.String
+  public let name: Swift.String
+  public let serialNumber: Swift.String
+  public let state: Swift.String
+  public init(id: Swift.String, model: Swift.String, name: Swift.String, serialNumber: Swift.String, state: Swift.String)
+}
+public struct TapToPayTransactionResult {
+  public let amount: Swift.Int
+  public let currency: Swift.String
+  public let cardBrand: Swift.String?
+  public let last4: Swift.String?
+  public let maskedCardNumber: Swift.String?
+  public let cardType: Swift.String?
+  public let emvData: Swift.String?
+  public let timestamp: Foundation.Date
+  public let readerIdentifier: Swift.String?
+  public let transactionIdentifier: Swift.String?
+  public let rawData: [Swift.String : Any]
+  public let transferId: Swift.String?
+  public let transferState: Swift.String?
+  public let approvalCode: Swift.String?
+  public let traceId: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(amount: Swift.Int, currency: Swift.String, cardBrand: Swift.String? = nil, last4: Swift.String? = nil, maskedCardNumber: Swift.String? = nil, cardType: Swift.String? = nil, emvData: Swift.String? = nil, timestamp: Foundation.Date = Date(), readerIdentifier: Swift.String? = nil, transactionIdentifier: Swift.String? = nil, rawData: [Swift.String : Any] = [:], transferId: Swift.String? = nil, transferState: Swift.String? = nil, approvalCode: Swift.String? = nil, traceId: Swift.String? = nil)
+  #endif
+}
+public enum TapToPayError : Swift.Error, Foundation.LocalizedError {
+  case notSupported
+  case notConfigured
+  case accountNotLinked
+  case linkingFailed(Swift.String)
+  case readerPreparationFailed(Swift.String)
+  case transactionCancelled
+  case transactionFailed(Swift.String)
+  case tokenFetchFailed(Swift.String)
+  case deviceCreationFailed(Swift.String)
+  case unknown(Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+}
+public enum TapToPayTransactionEvent {
+  case readingCard
+  case processing
+  case success(FinixTapToPaySDK.TapToPayTransactionResult)
+  case failure(FinixTapToPaySDK.TapToPayError)
+}
+public protocol TapToPayTransferRepository {
+  func createTapToPayTransfer(request: FinixTapToPaySDK.TapToPayTransferRequest) async throws -> FinixTapToPaySDK.TapToPayTransferResponse
+}
+public struct TapToPayTransferRequest {
+  public let merchantId: Swift.String
+  public let merchantMid: Swift.String
+  public let deviceId: Swift.String
+  public let amount: Swift.Int
+  public let currency: Swift.String
+  public let encryptedCardData: Swift.String
+  public let appleTransactionId: Swift.String
+  public let readerIdentifier: Swift.String
+  public let transactionType: Swift.String
+  public let idempotencyId: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(merchantId: Swift.String, merchantMid: Swift.String, deviceId: Swift.String, amount: Swift.Int, currency: Swift.String, encryptedCardData: Swift.String, appleTransactionId: Swift.String, readerIdentifier: Swift.String, transactionType: Swift.String = "SALE", idempotencyId: Swift.String? = nil)
+  #endif
+}
+public struct TapToPayTransferResponse {
+  public let id: Swift.String
+  public let state: Swift.String
+  public let amount: Swift.Int
+  public let currency: Swift.String
+  public let cardBrand: Swift.String?
+  public let last4: Swift.String?
+  public let maskedPan: Swift.String?
+  public let approvalCode: Swift.String?
+  public let traceId: Swift.String?
+  public let failureCode: Swift.String?
+  public let failureMessage: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.String, state: Swift.String, amount: Swift.Int, currency: Swift.String, cardBrand: Swift.String? = nil, last4: Swift.String? = nil, maskedPan: Swift.String? = nil, approvalCode: Swift.String? = nil, traceId: Swift.String? = nil, failureCode: Swift.String? = nil, failureMessage: Swift.String? = nil)
+  #endif
+}
+extension FinixTapToPaySDK.Environment : Swift.Equatable {}
+extension FinixTapToPaySDK.Environment : Swift.Hashable {}

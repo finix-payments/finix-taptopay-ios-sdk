@@ -1,0 +1,102 @@
+# DO NOT UPGRADE SWIFTFORMAT BEYOND 0.52.10. KEEP LOCAL AND CI LOCKED TO THIS VERSION.
+# See setup-swiftformat.sh and bin/swiftformat for local version.
+#
+# To update, coordinate with the team and update both local and CI together.
+#
+# Homebrew does not support versioned SwiftFormat installs. We download the binary directly.
+name: SwiftFormat
+
+on:
+  pull_request:
+    branches: [main, 'release-*']
+    paths:
+      - 'FinixTapToPaySDK/**/*.swift'
+      - 'FinixTapToPayHost/**/*.swift'
+      - 'Sources/**/*.swift'
+      - 'Tests/**/*.swift'
+      - '.swiftformat'  # Re-check if config changes
+      - '.github/workflows/swiftformat.yml'  # Re-check if workflow changes
+  push:
+    branches: ['release-*']
+    paths:
+      - 'FinixTapToPaySDK/**/*.swift'
+      - 'FinixTapToPayHost/**/*.swift'
+      - 'Sources/**/*.swift'
+      - 'Tests/**/*.swift'
+      - '.swiftformat'
+      - '.github/workflows/swiftformat.yml'
+      - '!**/Pods/**'
+      - '!**/Generated/**'
+      - '!**/DerivedData/**'
+      - '!**/Carthage/**'
+
+concurrency:
+  # Cancel older in-progress runs for the same workflow on the same PR or branch
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  swiftformat:
+    name: Run SwiftFormat
+    runs-on: macos-latest
+    # Skip formatting for non-Swift changes
+    if: |
+      !contains(github.event.head_commit.message, '[skip ci]') &&
+      !contains(github.event.head_commit.message, '[ci skip]') &&
+      !contains(github.event.head_commit.message, 'docs:')
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: '16.2'
+
+      - name: Install SwiftFormat
+        run: |
+          curl -L https://github.com/nicklockwood/SwiftFormat/releases/download/0.52.10/swiftformat.zip -o swiftformat.zip
+          unzip -o swiftformat.zip -d /usr/local/bin/
+          chmod +x /usr/local/bin/swiftformat
+          /usr/local/bin/swiftformat --version
+
+      - name: Run SwiftFormat
+        run: |
+          # Check if there are any formatting issues
+          # Note: We show output (no > /dev/null) for better CI debugging
+          if ! /usr/local/bin/swiftformat --config .swiftformat --lint .; then
+            echo "::error::Code formatting issues found. Please run './scripts/format.sh' to fix them."
+            echo "Or run './setup-swiftformat.sh' to set up local formatting."
+            exit 1
+          fi
+
+      - name: Check for formatting issues
+        if: failure()
+        run: |
+          echo "::group::Modified Files"
+          git diff --name-only
+          echo "::endgroup::"
+
+          echo "::group::Git Status"
+          git status
+          echo "::endgroup::"
+
+          echo "::group::Detailed Diff"
+          git diff
+          echo "::endgroup::"
+
+          echo ""
+          echo "❌ SwiftFormat check failed!"
+          echo ""
+          echo "To fix formatting issues locally:"
+          echo "1. ./setup-swiftformat.sh    # First time setup"
+          echo "2. ./scripts/format.sh        # Format all files"
+          echo "3. git add ."
+          echo "4. git commit --amend --no-edit"
+          echo "5. git push --force-with-lease"
+          echo ""
+          echo "Or format only modified files:"
+          echo "  ./scripts/format-modified.sh"

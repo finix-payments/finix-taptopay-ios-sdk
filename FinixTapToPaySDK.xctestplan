@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "default",
+      "name" : "Configuration 1",
+      "options" : {
+        "codeCoverage" : {
+          "targets" : [
+            {
+              "containerPath" : "container:FinixTapToPaySDK.xcodeproj",
+              "identifier" : "FinixTapToPaySDK",
+              "name" : "FinixTapToPaySDK"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:FinixTapToPaySDK.xcodeproj",
+      "identifier" : "FinixTapToPaySDKTests",
+      "name" : "FinixTapToPaySDKTests"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:FinixTapToPaySDK.xcodeproj",
+        "identifier" : "FinixTapToPaySDKTests",
+        "name" : "FinixTapToPaySDKTests"
+      }
+    }
+  ],
+  "version" : 1
+}

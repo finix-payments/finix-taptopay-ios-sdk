@@ -1,0 +1,43 @@
+# SwiftFormat configuration file
+# https://github.com/nicklockwood/SwiftFormat
+
+# Swift version
+--swiftversion 5.9
+
+# Basic formatting options
+--allman false                   # Use K&R style braces
+--indent 4                       # Use 4 spaces for indentation
+--indentcase true                # Indent cases inside switch statements
+--tabwidth 4                     # Tab width
+--maxwidth 100                   # Maximum line width
+--semicolons never               # No semicolons
+--trimwhitespace always          # Trim trailing whitespace
+--linebreaks lf                  # Use LF line endings
+
+# Specific rules
+--enable blankLinesBetweenScopes # Add blank line between class/struct/enum declarations
+--enable blankLineAfterImports   # Add blank line after imports
+--enable consecutiveSpaces       # Remove consecutive spaces
+--enable duplicateImports        # Remove duplicate imports
+--enable emptyBraces             # Format empty braces
+--enable redundantSelf           # Remove redundant self references
+--enable trailingClosures        # Use trailing closure syntax when possible
+--enable wrapArguments           # Wrap function arguments
+
+# Import options
+--importgrouping testable-top    # Group imports: @testable at top, then others
+--disable blankLinesBetweenImports # Don't add blank lines between imports
+
+# Space control - using default spacing for older SwiftFormat versions
+
+# Disabled rules
+--disable strongOutlets          # Don't require IBOutlets to be strong
+--disable spaceAroundParens     # Don't enforce spaces around parentheses
+
+# File options
+--exclude Pods                   # Exclude Pods directory
+--exclude .build                 # Exclude .build directory
+--exclude "**/build"             # Exclude any build directory
+--exclude Carthage               # Exclude Carthage directory
+--exclude .swiftpm               # Exclude SPM build artifacts
+--exclude DerivedData            # Exclude Xcode DerivedData
