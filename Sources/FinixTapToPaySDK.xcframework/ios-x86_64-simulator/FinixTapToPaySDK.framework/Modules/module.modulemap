@@ -1,3 +1,0 @@
-framework module FinixTapToPaySDK {
-  header "FinixTapToPaySDK-Swift.h"
-}
