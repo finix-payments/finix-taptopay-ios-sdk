@@ -4,6 +4,9 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
 import Combine
 import CryptoKit
+import DatadogCore
+import DatadogCrashReporting
+import DatadogLogs
 import Foundation
 import ProximityReader
 import Security
