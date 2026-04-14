@@ -99,6 +99,7 @@ public struct TapToPayTransactionResult {
   public let transferState: Swift.String?
   public let approvalCode: Swift.String?
   public let traceId: Swift.String?
+  public static func mock(amount: Swift.Int, currency: Swift.String, cardBrand: Swift.String? = "VISA", last4: Swift.String? = "1234", maskedCardNumber: Swift.String? = "**** **** **** 1234", cardType: Swift.String? = "CREDIT", transferId: Swift.String? = nil, transferState: Swift.String? = nil, approvalCode: Swift.String? = nil) -> FinixTapToPaySDK.TapToPayTransactionResult
 }
 public enum TapToPayError : Swift.Error, Foundation.LocalizedError {
   case notSupported
