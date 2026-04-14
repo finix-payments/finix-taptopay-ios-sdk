@@ -57,6 +57,7 @@ public struct TapToPayConfiguration {
   }
   public enum Environment {
     case sandbox
+    case qa
     case production
     public static func == (a: FinixTapToPaySDK.TapToPayConfiguration.Environment, b: FinixTapToPaySDK.TapToPayConfiguration.Environment) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)

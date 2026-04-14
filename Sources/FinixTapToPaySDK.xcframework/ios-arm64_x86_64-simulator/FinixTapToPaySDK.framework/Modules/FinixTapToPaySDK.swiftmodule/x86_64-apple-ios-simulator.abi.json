@@ -1364,6 +1364,46 @@
               },
               {
                 "kind": "Var",
+                "name": "qa",
+                "printedName": "qa",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayConfiguration.Environment.Type) -> FinixTapToPaySDK.TapToPayConfiguration.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "FinixTapToPaySDK.TapToPayConfiguration.Environment",
+                        "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayConfiguration.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "FinixTapToPaySDK.TapToPayConfiguration.Environment",
+                            "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV11EnvironmentO2qayA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV11EnvironmentO2qayA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "production",
                 "printedName": "production",
                 "children": [
@@ -3925,14 +3965,14 @@
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 5797,
+      "offset": 5718,
       "length": 37,
       "value": "\"pub2c8e7e57ec29577b7e38b8e3ab08e87d\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 5871,
+      "offset": 5792,
       "length": 20,
       "value": "\"finix-taptopay-sdk\""
     },

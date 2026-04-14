@@ -14,43 +14,43 @@
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		xlbFCKICus6HftGGtKmxm5RNKcQ=
+		aBsrx8u3TQumXCbCIuo5qEiRYyo=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MUf13Z6TVbnFeoTx7hygLDAhQh4=
+		kiMYtNxPwFUiBIZdPoGBUf3J2XA=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OZlnbE4R1nuYePLf2vLRHgUUuHQ=
+		M225ntjo0b7xq0BDljRuGWdrwC8=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MUf13Z6TVbnFeoTx7hygLDAhQh4=
+		kiMYtNxPwFUiBIZdPoGBUf3J2XA=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KPm1ZFm6mUz3cLLqnlE8Xd6I2dQ=
+		v7lwK/oPW/6xVxg/APDAp+TLdSg=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		xlbFCKICus6HftGGtKmxm5RNKcQ=
+		aBsrx8u3TQumXCbCIuo5qEiRYyo=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3kbUm3lTtUoHVDhNQOAbH+3Yw14=
+		K9bistTYkstfjabz2nVdqZZWn7Q=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		UpFml26bYhf8I54qabzZxfKtas4=
+		sRFxC+PX2NyR7FvgfnCw84X3ykA=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3kbUm3lTtUoHVDhNQOAbH+3Yw14=
+		K9bistTYkstfjabz2nVdqZZWn7Q=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yEOUFwjXsTQfKPTkG0SAZF6fgVg=
+		lI+hliW3sfJmg582+XRBMu42l2A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,70 +70,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wmCFCQrOzVBu+CFNVt78oTjbTUMtuttw6uMZb7UdTbw=
+			pq3kQnsRKzZA4brVxSLfEeYn/n85l88r68Lc2/j41rk=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A0YONv4RbV3YIpQFDk+DQ3+6X2f7Djh3wZuXTRWjVW4=
+			E8A8E89slG8cmJww0bV9zC78rLn7TnWdpGYKf+mem78=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6zgecoPK1GN/2tWiigjiDSUBuU5JveMidsHMFp7f3Bs=
+			GMbF96WRBOXblCpjNO1XKHsMR/XX2wwNALqd35tYr7w=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A0YONv4RbV3YIpQFDk+DQ3+6X2f7Djh3wZuXTRWjVW4=
+			E8A8E89slG8cmJww0bV9zC78rLn7TnWdpGYKf+mem78=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GS1/f0PyuQ3f4Q7O3objdZxOKsl4wjYaXiuSpDZmpEU=
+			Ezo44cjHogp4KY7dZjCxUlSTJ15HLDpzWZ/YfNYSSFQ=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wmCFCQrOzVBu+CFNVt78oTjbTUMtuttw6uMZb7UdTbw=
+			pq3kQnsRKzZA4brVxSLfEeYn/n85l88r68Lc2/j41rk=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4PO/0vNZNTeb4vxq0uf0pGiloVeAXpb8pER3vm9fxsY=
+			0QPyMqu5V/5bmX65NGoxlIGYtuYtDzizsa1y+13KCls=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wlsY/5RKIDwDaed165/Ydv+P0rZBExKJTOl22ReB+iQ=
+			JNz5UZDz5pMu+2n1nX9owFs+pkZgCu04JgFM1S1GPuw=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4PO/0vNZNTeb4vxq0uf0pGiloVeAXpb8pER3vm9fxsY=
+			0QPyMqu5V/5bmX65NGoxlIGYtuYtDzizsa1y+13KCls=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R8y67MyBnSTanngDgmm75wae1hwH4rvvRk9bgEgtoP8=
+			P7HVMP8eFNgSx6jdaIKfMDzZsfBNKpl1Vw7A5wvdTEE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
