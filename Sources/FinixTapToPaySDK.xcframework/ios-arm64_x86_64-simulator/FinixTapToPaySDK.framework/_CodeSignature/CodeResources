@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Fdg8CqlkU/zPLywM628KRMjmUe4=
+		nm5GxDcTTqzmEv/L2ARrCQ3PWF8=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		c3TL2x9fyHZ7wK1Rigc/h2MnZn8=
+		Mguksaafv+P+s2jcWzzdOaqo3LE=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Fdg8CqlkU/zPLywM628KRMjmUe4=
+		nm5GxDcTTqzmEv/L2ARrCQ3PWF8=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qW0hgnA1+t4Ywmwh1dJmRqTEFoE=
+		5IX7sDoqB0GxW8Upqbd8xhJf3oI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d6V3N/NZBxMcb7FbrKn49bKj3zIkc00SwC50/tYFJac=
+			17/YcyjOQMAWe1+81ajBDZnXWnwI0xOmXesnGNwkUjE=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jLokgAgVp3ObgC1OBO6edhdWltLvFLcnA8uLq/ZE9/A=
+			Q5DE4QE+wYFnvGh2MwaCPDb6ouZm3zgFC5CQe3KqFyk=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d6V3N/NZBxMcb7FbrKn49bKj3zIkc00SwC50/tYFJac=
+			17/YcyjOQMAWe1+81ajBDZnXWnwI0xOmXesnGNwkUjE=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MYuQe8AUnE18rpAjhbm/wqt27h1DBqybU09Ci3h6aVw=
+			atzCGfkWWJvlkxn1LZvt+CmG/HFPLorSm+MGCBMJoGU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

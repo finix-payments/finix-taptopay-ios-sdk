@@ -4743,21 +4743,21 @@
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 9871,
+      "offset": 10611,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 10966,
+      "offset": 11706,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 11951,
+      "offset": 12691,
       "length": 3,
       "value": "[]"
     },
@@ -4862,7 +4862,7 @@
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTokenRepository.swift",
       "kind": "StringLiteral",
-      "offset": 6211,
+      "offset": 6965,
       "length": 18,
       "value": "\"tap_to_pay_token\""
     },
@@ -4876,35 +4876,35 @@
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4124,
+      "offset": 4227,
       "length": 23,
       "value": "\"masked_account_number\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4176,
+      "offset": 4279,
       "length": 15,
       "value": "\"approval_code\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4215,
+      "offset": 4318,
       "length": 10,
       "value": "\"trace_id\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4253,
+      "offset": 4356,
       "length": 14,
       "value": "\"failure_code\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4298,
+      "offset": 4401,
       "length": 17,
       "value": "\"failure_message\""
     }
