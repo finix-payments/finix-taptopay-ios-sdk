@@ -4731,33 +4731,33 @@
       "kind": "FloatLiteral",
       "offset": 706,
       "length": 4,
-      "value": "30.0"
-    },
-    {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
-      "kind": "FloatLiteral",
-      "offset": 762,
-      "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
+      "kind": "FloatLiteral",
+      "offset": 813,
+      "length": 5,
+      "value": "120.0"
+    },
+    {
+      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 10611,
+      "offset": 10694,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 11706,
+      "offset": 11789,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 12691,
+      "offset": 12774,
       "length": 3,
       "value": "[]"
     },
