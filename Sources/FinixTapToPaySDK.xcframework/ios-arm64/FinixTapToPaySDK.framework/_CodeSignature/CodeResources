@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		xKNSbq57rJ81OklrlWdt3eVmkpo=
+		ews7v4byAdXCoBHh0UTI6XQrfg8=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		aiFXGYgo4NtqfZh0WG+clILR2rE=
+		Nm63AG45dP3Lnc0SjpEUBV0IhQ0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S/o9RgvD32Zu4V5EmwC3/b2++ueNygDFYHYVOO8ul1g=
+			zvsW0moIUJUvkr3Ar3Xd/Q8MPTNvG4I9FoqNynrrf98=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xjOBZViG5D72vjPM6U4kgDkeZn6NlATHq0RtL+FxLKE=
+			Ckpqu2YiSo135rJ2DkevpVBntJJQVSSrgE478dppYDg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
