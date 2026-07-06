@@ -10,27 +10,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		U3sz+Bscg4FLDguWKpV0k3To0kw=
+		h7KTlApeYR2pCj39IBGPFj8Q2+g=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ews7v4byAdXCoBHh0UTI6XQrfg8=
+		1CTACw2otEZD76y69kBnv2n+YRM=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		BvSNYpXGQvpfQOOrrsHYhVISxzI=
+		zotk2Vs2cPhMZzO2r2nvSCBsFlE=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Nf4ny490hyOXI3DL8Wf+Qn8WKD4=
+		AFThRHZ0uO7DGyeDzHO39Di2z7Y=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		BvSNYpXGQvpfQOOrrsHYhVISxzI=
+		zotk2Vs2cPhMZzO2r2nvSCBsFlE=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Nm63AG45dP3Lnc0SjpEUBV0IhQ0=
+		3cw9BuO/HpyPuV1EQHfrAUlK47I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,35 +50,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zvsW0moIUJUvkr3Ar3Xd/Q8MPTNvG4I9FoqNynrrf98=
+			6XbHSto02D2ozxWxxQarAXEF97AXE9Gt3nppBEev0oI=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IcahgWdnF8EEMeQAPHcVsPDT+mZiMMPzd2kx5aci9XI=
+			5WlCO375Jd+CAfBSnWvaoWZgsUlnW+vBKi9o7B07oOw=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kzx9pKxkOPpj3S7ZbdLt/OaTQ7dyg69qZKXTTYQ7plQ=
+			3NtOnckDvDp5nyzoVoUxW/PGpqB78xnu84wPMcSDv3I=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IcahgWdnF8EEMeQAPHcVsPDT+mZiMMPzd2kx5aci9XI=
+			5WlCO375Jd+CAfBSnWvaoWZgsUlnW+vBKi9o7B07oOw=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ckpqu2YiSo135rJ2DkevpVBntJJQVSSrgE478dppYDg=
+			NqYYd2LIHeR+cDUkyKUEwHr9FY1R1q/r7A65zp8vs1w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

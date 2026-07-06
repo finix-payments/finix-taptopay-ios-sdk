@@ -23,6 +23,7 @@ final public class FinixTapToPay {
   final public func prepareReader() async throws
   final public func startTransaction(amount: Swift.Int, currency: Swift.String, type: FinixTapToPaySDK.TransactionType = .sale) async throws -> FinixTapToPaySDK.TapToPayTransactionResult
   final public func cancelTransaction() async throws
+  final public func setUserInterfaceLanguage(_ language: Foundation.Locale.Language?)
   public static func isSupported() -> Swift.Bool
   final public func clearLinkStatus()
   @available(iOS 16.4, *)
