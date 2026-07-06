@@ -271,6 +271,42 @@
           },
           {
             "kind": "Function",
+            "name": "setUserInterfaceLanguage",
+            "printedName": "setUserInterfaceLanguage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Locale.Language?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Language",
+                    "printedName": "Foundation.Locale.Language",
+                    "usr": "s:10Foundation6LocaleV8LanguageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FinixTapToPaySDK0abcD0C24setUserInterfaceLanguageyy10Foundation6LocaleV0I0VSgF",
+            "mangledName": "$s16FinixTapToPaySDK0abcD0C24setUserInterfaceLanguageyy10Foundation6LocaleV0I0VSgF",
+            "moduleName": "FinixTapToPaySDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "isSupported",
             "printedName": "isSupported()",
             "children": [
