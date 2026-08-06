@@ -22,10 +22,10 @@ Or add it through Xcode:
 
 ## Requirements
 
-- iOS 16.4 or later
+- iOS 18.1 or later
 - iPhone XS or newer
-- Swift 5.0+
-- Xcode 15.0+
+- Swift 5.9+
+- Xcode 16.0+
 - Active Finix merchant account
 
 ## Documentation
