@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "FinixTapToPaySDK",
     platforms: [
-        .iOS(.v16),
+        .iOS("18.1"),
     ],
     products: [
         .library(
