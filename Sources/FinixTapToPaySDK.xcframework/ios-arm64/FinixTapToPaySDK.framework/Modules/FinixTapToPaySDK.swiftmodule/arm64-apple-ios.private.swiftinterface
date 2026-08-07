@@ -1,19 +1,16 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
-// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FinixTapToPaySDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios18.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FinixTapToPaySDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import Combine
-import CryptoKit
 import Foundation
 import ProximityReader
-import Security
 import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers @available(iOS 16.4, *)
-final public class FinixTapToPay {
+@_hasMissingDesignatedInitializers final public class FinixTapToPay {
   final public var transactionEvents: Combine.AnyPublisher<FinixTapToPaySDK.TapToPayTransactionEvent, Swift.Never> {
     get
   }
@@ -21,44 +18,43 @@ final public class FinixTapToPay {
   final public func isAccountLinked() async -> Swift.Bool
   final public func linkAccount() async throws
   final public func prepareReader() async throws
-  final public func startTransaction(amount: Swift.Int, currency: Swift.String, type: FinixTapToPaySDK.TransactionType = .sale) async throws -> FinixTapToPaySDK.TapToPayTransactionResult
+  final public func startTransaction(amount: Swift.Int, currency: Swift.String, type: FinixTapToPaySDK.TransactionType = .sale, identityId: Swift.String? = nil) async throws -> FinixTapToPaySDK.TapToPayTransactionResult
   final public func cancelTransaction() async throws
   final public func setUserInterfaceLanguage(_ language: Foundation.Locale.Language?)
   public static func isSupported() -> Swift.Bool
   final public func clearLinkStatus()
-  @available(iOS 16.4, *)
   final public func forceRefreshLinkStatus() async -> Swift.Bool
   final public func refreshConfiguration()
   final public func clearAllCaches()
   @objc deinit
 }
-public struct TapToPayConfiguration {
+public struct TapToPayConfiguration : Swift.Sendable {
   public let credentials: FinixTapToPaySDK.TapToPayConfiguration.APICredentials
   public let merchant: FinixTapToPaySDK.TapToPayConfiguration.MerchantInfo
   public let environment: FinixTapToPaySDK.TapToPayConfiguration.Environment
   public let transactionOptions: FinixTapToPaySDK.TapToPayConfiguration.TransactionOptions
   public let deviceId: Swift.String
-  public init(credentials: FinixTapToPaySDK.TapToPayConfiguration.APICredentials, merchant: FinixTapToPaySDK.TapToPayConfiguration.MerchantInfo, environment: FinixTapToPaySDK.TapToPayConfiguration.Environment, deviceId: Swift.String, transactionOptions: FinixTapToPaySDK.TapToPayConfiguration.TransactionOptions = TransactionOptions())
-  public struct TransactionOptions {
+  public let crashReportingEnabled: Swift.Bool
+  public init(credentials: FinixTapToPaySDK.TapToPayConfiguration.APICredentials, merchant: FinixTapToPaySDK.TapToPayConfiguration.MerchantInfo, environment: FinixTapToPaySDK.TapToPayConfiguration.Environment, deviceId: Swift.String, transactionOptions: FinixTapToPaySDK.TapToPayConfiguration.TransactionOptions = TransactionOptions(), crashReportingEnabled: Swift.Bool = true)
+  public struct TransactionOptions : Swift.Sendable {
     public let returnReadResultImmediately: Swift.Bool
     public let autoPrepareOnForeground: Swift.Bool
     public let linkStatusCacheDuration: Foundation.TimeInterval
     public init(returnReadResultImmediately: Swift.Bool = true, autoPrepareOnForeground: Swift.Bool = true, linkStatusCacheDuration: Foundation.TimeInterval = 300)
   }
-  public struct APICredentials {
+  public struct APICredentials : Swift.Sendable {
     public let username: Swift.String
     public let password: Swift.String
     public init(username: Swift.String, password: Swift.String)
   }
-  public struct MerchantInfo {
+  public struct MerchantInfo : Swift.Sendable {
     public let merchantId: Swift.String
     public let merchantMid: Swift.String
     public let merchantName: Swift.String
     public init(merchantId: Swift.String, merchantMid: Swift.String, merchantName: Swift.String)
   }
-  public enum Environment {
+  public enum Environment : Swift.Sendable {
     case sandbox
-    case qa
     case production
     public static func == (a: FinixTapToPaySDK.TapToPayConfiguration.Environment, b: FinixTapToPaySDK.TapToPayConfiguration.Environment) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
@@ -67,7 +63,7 @@ public struct TapToPayConfiguration {
     }
   }
 }
-public enum TransactionType : Swift.String, Swift.Encodable, Swift.CaseIterable {
+public enum TransactionType : Swift.String, Swift.Encodable, Swift.CaseIterable, Swift.Sendable {
   case sale
   case authorization
   case refund
@@ -84,7 +80,7 @@ public enum TransactionType : Swift.String, Swift.Encodable, Swift.CaseIterable 
     get
   }
 }
-public struct TapToPayTransactionResult {
+public struct TapToPayTransactionResult : Swift.Equatable, Swift.Sendable {
   public let amount: Swift.Int
   public let currency: Swift.String
   public let cardBrand: Swift.String?
@@ -95,19 +91,18 @@ public struct TapToPayTransactionResult {
   public let timestamp: Foundation.Date
   public let readerIdentifier: Swift.String?
   public let transactionIdentifier: Swift.String?
-  public let rawData: [Swift.String : Any]
   public let transferId: Swift.String?
   public let transferState: Swift.String?
   public let approvalCode: Swift.String?
   public let traceId: Swift.String?
   public static func mock(amount: Swift.Int, currency: Swift.String, cardBrand: Swift.String? = "VISA", last4: Swift.String? = "1234", maskedCardNumber: Swift.String? = "**** **** **** 1234", cardType: Swift.String? = "CREDIT", transferId: Swift.String? = nil, transferState: Swift.String? = nil, approvalCode: Swift.String? = nil) -> FinixTapToPaySDK.TapToPayTransactionResult
+  public static func == (a: FinixTapToPaySDK.TapToPayTransactionResult, b: FinixTapToPaySDK.TapToPayTransactionResult) -> Swift.Bool
 }
-public enum TapToPayError : Swift.Error, Foundation.LocalizedError {
+public enum TapToPayError : Swift.Error, Foundation.LocalizedError, Swift.Equatable, Swift.Sendable {
   case notSupported
   case notConfigured
   case accountNotLinked
-  case linkingFailed(Swift.String)
-  case readerPreparationFailed(Swift.String)
+  case readerPreparationFailed(Swift.String?)
   case transactionCancelled
   case transactionFailed(Swift.String)
   case tokenFetchFailed(Swift.String)
@@ -116,7 +111,7 @@ public enum TapToPayError : Swift.Error, Foundation.LocalizedError {
   case accountDeactivated
   case accountLinkingCancelled
   case accountLinkingCheckFailed
-  case accountLinkingFailed
+  case accountLinkingFailed(Swift.String?)
   case accountLinkingRequiresiCloudSignIn
   case backgroundRequestNotAllowed
   case deviceBanned(Foundation.Date?)
@@ -126,19 +121,19 @@ public enum TapToPayError : Swift.Error, Foundation.LocalizedError {
   case merchantBlocked
   case modelNotSupported
   case networkAuthenticationError
-  case prepareFailed(Swift.String?)
   public var errorDescription: Swift.String? {
     get
   }
+  public static func == (a: FinixTapToPaySDK.TapToPayError, b: FinixTapToPaySDK.TapToPayError) -> Swift.Bool
 }
-public enum TapToPayTransactionEvent {
+public enum TapToPayTransactionEvent : Swift.Equatable, Swift.Sendable {
   case preparingTransaction
   case readingCard
-  case cardDetected
   case cardRead
   case processing
   case success(FinixTapToPaySDK.TapToPayTransactionResult)
   case failure(FinixTapToPaySDK.TapToPayError)
+  public static func == (a: FinixTapToPaySDK.TapToPayTransactionEvent, b: FinixTapToPaySDK.TapToPayTransactionEvent) -> Swift.Bool
 }
 extension FinixTapToPaySDK.TapToPayConfiguration.Environment : Swift.Equatable {}
 extension FinixTapToPaySDK.TapToPayConfiguration.Environment : Swift.Hashable {}

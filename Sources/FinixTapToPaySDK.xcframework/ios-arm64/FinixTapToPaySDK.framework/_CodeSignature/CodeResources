@@ -6,35 +6,39 @@
 	<dict>
 		<key>Headers/FinixTapToPaySDK-Swift.h</key>
 		<data>
-		r3YYqZyoY3nyECvqM8bxNoubnbs=
+		C9RipUoeLFO6slPfQcXmAbIn7CI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		h7KTlApeYR2pCj39IBGPFj8Q2+g=
+		9HjNhgTK7D9xCJYrSPdzyWVvLzU=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1CTACw2otEZD76y69kBnv2n+YRM=
+		atYIuXBZyIhdamFTDPAkFUFkWCY=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		zotk2Vs2cPhMZzO2r2nvSCBsFlE=
+		EdiF6J3Q2Q99Ip2sGxvWZfqkmyI=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		AFThRHZ0uO7DGyeDzHO39Di2z7Y=
+		xwhMVEyURNglRSB1xgsMWIrLxoA=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		zotk2Vs2cPhMZzO2r2nvSCBsFlE=
+		EdiF6J3Q2Q99Ip2sGxvWZfqkmyI=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3cw9BuO/HpyPuV1EQHfrAUlK47I=
+		QqloD7Ln0VkLS3ktb1a1Lwp0ZSc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		eOgcupihJGFpTYFnFR2VEWB0mng=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		dk4uAt7dES8hGsT2aB9ITOhmmaw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -43,42 +47,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E1d2uUkHirHxYmYb2sFgdwCr6jZjYdYe11q6s/AvM9k=
+			vRtR5L9FFbhExLQMvvojDL6i2T2pnoO0FhDyfeMpD0Y=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6XbHSto02D2ozxWxxQarAXEF97AXE9Gt3nppBEev0oI=
+			z7bSebtnttAzJCctGrmPoFZRj/YQByIff7mrWO+0kdk=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5WlCO375Jd+CAfBSnWvaoWZgsUlnW+vBKi9o7B07oOw=
+			buBdshR5Ij5jom9lbzEn646zvQOsO4Tr8xhpoXCjzeQ=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3NtOnckDvDp5nyzoVoUxW/PGpqB78xnu84wPMcSDv3I=
+			OkIFw1RgFO85Z+RvsSLWIpcj625m3AbnpPI/6ILTwM4=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5WlCO375Jd+CAfBSnWvaoWZgsUlnW+vBKi9o7B07oOw=
+			buBdshR5Ij5jom9lbzEn646zvQOsO4Tr8xhpoXCjzeQ=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NqYYd2LIHeR+cDUkyKUEwHr9FY1R1q/r7A65zp8vs1w=
+			IgJTfg22aGqI3W1/GSzMHgPaMmXik4RDrnwmW05rHeU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -86,6 +90,13 @@
 			<key>hash2</key>
 			<data>
 			9kCNNbDsIzMUNKCglKoi4ECpaMquQspeYWSVsNwM6tk=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WLdglqNwvhbh5A+y1zCX34IzurIw1mAuuGpEtTC4JKo=
 			</data>
 		</dict>
 	</dict>
