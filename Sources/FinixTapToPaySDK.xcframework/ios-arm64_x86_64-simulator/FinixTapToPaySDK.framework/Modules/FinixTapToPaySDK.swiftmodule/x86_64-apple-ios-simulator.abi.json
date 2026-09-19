@@ -499,6 +499,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinixTapToPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "TapToPayConfiguration",
         "printedName": "TapToPayConfiguration",
@@ -767,6 +777,51 @@
                 "declKind": "Accessor",
                 "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV21crashReportingEnabledSbvg",
                 "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV21crashReportingEnabledSbvg",
+                "moduleName": "FinixTapToPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "referrerSource",
+            "printedName": "referrerSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV14referrerSourceSSvp",
+            "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV14referrerSourceSSvp",
+            "moduleName": "FinixTapToPaySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV14referrerSourceSSvg",
+                "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV14referrerSourceSSvg",
                 "moduleName": "FinixTapToPaySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4821,65 +4876,79 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/FinixHTTPHeaders.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 25,
+      "value": "\"X-Finix-Referrer-Source\""
+    },
+    {
+      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/FinixHTTPHeaders.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 33,
+      "value": "\"CARD_PRESENT_IOS_TAP_TO_PAY_SDK\""
+    },
+    {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "FloatLiteral",
-      "offset": 603,
+      "offset": 642,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "FloatLiteral",
-      "offset": 709,
+      "offset": 748,
       "length": 5,
       "value": "120.0"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 7786,
+      "offset": 7939,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 8925,
+      "offset": 9078,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 9954,
+      "offset": 10107,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2075,
+      "offset": 2360,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 3411,
+      "offset": 4605,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 3461,
+      "offset": 4655,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 3519,
+      "offset": 4713,
       "length": 3,
       "value": "300"
     },
@@ -4963,7 +5032,7 @@
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTokenRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7619,
+      "offset": 7677,
       "length": 18,
       "value": "\"tap_to_pay_token\""
     },
