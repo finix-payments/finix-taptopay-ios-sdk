@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- The SDK now sends `X-Finix-Referrer-Source: CARD_PRESENT_IOS_TAP_TO_PAY_SDK` on Finix API
+  requests. The Finix API records this value as `created_via` on Transfer and Authorization
+  resources. The previous value was `CARD_PRESENT_IOS_APP`.
+
 ## [1.0.1] - 2026-08-07
 
 Initial public release.
