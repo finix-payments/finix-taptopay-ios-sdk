@@ -227,6 +227,8 @@ Treat `accountAlreadyLinked` as success: Apple reports it when the account was l
 
 `startTransaction` also accepts `identityId` to associate the payment with an existing Finix Identity (buyer).
 
+`startTransaction` also takes the same charge breakdown as the PAX SDK: `tipAmount`, `surchargeAmount` (minor units) and `signaturePending`. `amount` is the base amount only — the SDK shows `amount + tipAmount` on Apple's tap sheet and reports `tip_amount`, `surcharge_amount` and `signature_pending` to Finix alongside `amount`. Pass the surcharge you computed from the device's basis points; whether it is applied (credit vs debit) is the backend's decision, and it never reaches the tap sheet. Omitted tip and surcharge are sent as `0`; an omitted `signaturePending` is not sent.
+
 The SDK re-prepares the reader after every transaction, as Apple requires — you don't need to call `prepareReader()` again between sales.
 
 ### Result

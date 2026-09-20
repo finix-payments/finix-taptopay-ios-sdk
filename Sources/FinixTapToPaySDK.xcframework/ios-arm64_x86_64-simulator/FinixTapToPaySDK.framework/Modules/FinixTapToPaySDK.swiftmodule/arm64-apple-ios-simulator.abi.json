@@ -206,7 +206,7 @@
           {
             "kind": "Function",
             "name": "startTransaction",
-            "printedName": "startTransaction(amount:currency:type:identityId:)",
+            "printedName": "startTransaction(amount:currency:type:identityId:surchargeAmount:tipAmount:signaturePending:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -247,11 +247,56 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FinixTapToPaySDK0abcD0C16startTransaction6amount8currency4type10identityIdAA0bcdG6ResultVSi_SSAA0G4TypeOSSSgtYaKF",
-            "mangledName": "$s16FinixTapToPaySDK0abcD0C16startTransaction6amount8currency4type10identityIdAA0bcdG6ResultVSi_SSAA0G4TypeOSSSgtYaKF",
+            "usr": "s:16FinixTapToPaySDK0abcD0C16startTransaction6amount8currency4type10identityId15surchargeAmount03tipN016signaturePendingAA0bcdG6ResultVSi_SSAA0G4TypeOSSSgSiSgAQSbSgtYaKF",
+            "mangledName": "$s16FinixTapToPaySDK0abcD0C16startTransaction6amount8currency4type10identityId15surchargeAmount03tipN016signaturePendingAA0bcdG6ResultVSi_SSAA0G4TypeOSSSgSiSgAQSbSgtYaKF",
             "moduleName": "FinixTapToPaySDK",
             "declAttributes": [
               "Final",
@@ -5004,28 +5049,28 @@
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
       "kind": "StringLiteral",
-      "offset": 3199,
+      "offset": 3295,
       "length": 6,
       "value": "\"VISA\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
       "kind": "StringLiteral",
-      "offset": 3232,
+      "offset": 3328,
       "length": 6,
       "value": "\"1234\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
       "kind": "StringLiteral",
-      "offset": 3276,
+      "offset": 3372,
       "length": 21,
       "value": "\"**** **** **** 1234\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
       "kind": "StringLiteral",
-      "offset": 3327,
+      "offset": 3423,
       "length": 8,
       "value": "\"CREDIT\""
     },
@@ -5039,42 +5084,42 @@
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayTransferRepository.swift",
       "kind": "StringLiteral",
-      "offset": 1909,
+      "offset": 2262,
       "length": 6,
       "value": "\"SALE\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4212,
+      "offset": 3650,
       "length": 23,
       "value": "\"masked_account_number\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4264,
+      "offset": 3702,
       "length": 15,
       "value": "\"approval_code\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4303,
+      "offset": 3741,
       "length": 10,
       "value": "\"trace_id\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4341,
+      "offset": 3779,
       "length": 14,
       "value": "\"failure_code\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4386,
+      "offset": 3824,
       "length": 17,
       "value": "\"failure_message\""
     }

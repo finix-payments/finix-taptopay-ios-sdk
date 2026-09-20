@@ -18,7 +18,7 @@ import _SwiftConcurrencyShims
   final public func isAccountLinked() async -> Swift::Bool
   final public func linkAccount() async throws
   final public func prepareReader() async throws
-  final public func startTransaction(amount: Swift::Int, currency: Swift::String, type: FinixTapToPaySDK::TransactionType = .sale, identityId: Swift::String? = nil) async throws -> FinixTapToPaySDK::TapToPayTransactionResult
+  final public func startTransaction(amount: Swift::Int, currency: Swift::String, type: FinixTapToPaySDK::TransactionType = .sale, identityId: Swift::String? = nil, surchargeAmount: Swift::Int? = nil, tipAmount: Swift::Int? = nil, signaturePending: Swift::Bool? = nil) async throws -> FinixTapToPaySDK::TapToPayTransactionResult
   final public func cancelTransaction() async throws
   final public func setUserInterfaceLanguage(_ language: Foundation::Locale.Foundation::Language?)
   public static func isSupported() -> Swift::Bool

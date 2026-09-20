@@ -7,11 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Optional `tipAmount`, `surchargeAmount` and `signaturePending` on `startTransaction`, sent to Finix as `tip_amount`, `surcharge_amount` and `signature_pending` alongside the base `amount` — the same breakdown the PAX SDK sends; Apple's tap sheet shows `amount + tipAmount`
+
 ### Changed
 
 - The SDK now sends `X-Finix-Referrer-Source: CARD_PRESENT_IOS_TAP_TO_PAY_SDK` on Finix API
   requests. The Finix API records this value as `created_via` on Transfer and Authorization
   resources. The previous value was `CARD_PRESENT_IOS_APP`.
+- `tip_amount` and `surcharge_amount` are now always present in the transfer request (`0` when not provided), matching the PAX SDK
 
 ## [1.0.1] - 2026-08-07
 
