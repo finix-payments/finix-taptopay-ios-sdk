@@ -206,7 +206,7 @@
           {
             "kind": "Function",
             "name": "startTransaction",
-            "printedName": "startTransaction(amount:currency:type:identityId:surchargeAmount:tipAmount:signaturePending:)",
+            "printedName": "startTransaction(amount:currency:type:identityId:surchargeAmount:tipAmount:promptForSignature:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -295,8 +295,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FinixTapToPaySDK0abcD0C16startTransaction6amount8currency4type10identityId15surchargeAmount03tipN016signaturePendingAA0bcdG6ResultVSi_SSAA0G4TypeOSSSgSiSgAQSbSgtYaKF",
-            "mangledName": "$s16FinixTapToPaySDK0abcD0C16startTransaction6amount8currency4type10identityId15surchargeAmount03tipN016signaturePendingAA0bcdG6ResultVSi_SSAA0G4TypeOSSSgSiSgAQSbSgtYaKF",
+            "usr": "s:16FinixTapToPaySDK0abcD0C16startTransaction6amount8currency4type10identityId15surchargeAmount03tipN018promptForSignatureAA0bcdG6ResultVSi_SSAA0G4TypeOSSSgSiSgAQSbSgtYaKF",
+            "mangledName": "$s16FinixTapToPaySDK0abcD0C16startTransaction6amount8currency4type10identityId15surchargeAmount03tipN018promptForSignatureAA0bcdG6ResultVSi_SSAA0G4TypeOSSSgSiSgAQSbSgtYaKF",
             "moduleName": "FinixTapToPaySDK",
             "declAttributes": [
               "Final",
@@ -1377,51 +1377,6 @@
               },
               {
                 "kind": "Var",
-                "name": "merchantMid",
-                "printedName": "merchantMid",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV11merchantMidSSvp",
-                "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV11merchantMidSSvp",
-                "moduleName": "FinixTapToPaySDK",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV11merchantMidSSvg",
-                    "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV11merchantMidSSvg",
-                    "moduleName": "FinixTapToPaySDK",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
                 "name": "merchantName",
                 "printedName": "merchantName",
                 "children": [
@@ -1468,6 +1423,40 @@
               {
                 "kind": "Constructor",
                 "name": "init",
+                "printedName": "init(merchantId:merchantName:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MerchantInfo",
+                    "printedName": "FinixTapToPaySDK.TapToPayConfiguration.MerchantInfo",
+                    "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV10merchantId0I4NameAESS_SStcfc",
+                "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV10merchantId0I4NameAESS_SStcfc",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
                 "printedName": "init(merchantId:merchantMid:merchantName:)",
                 "children": [
                   {
@@ -1499,11 +1488,56 @@
                 "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV10merchantId0I3Mid0I4NameAESS_S2Stcfc",
                 "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV10merchantId0I3Mid0I4NameAESS_S2Stcfc",
                 "moduleName": "FinixTapToPaySDK",
+                "deprecated": true,
                 "declAttributes": [
                   "AccessControl",
+                  "Available",
                   "RawDocComment"
                 ],
                 "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "merchantMid",
+                "printedName": "merchantMid",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV11merchantMidSSvp",
+                "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV11merchantMidSSvp",
+                "moduleName": "FinixTapToPaySDK",
+                "deprecated": true,
+                "declAttributes": [
+                  "AccessControl",
+                  "Available",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV11merchantMidSSvg",
+                    "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV12MerchantInfoV11merchantMidSSvg",
+                    "moduleName": "FinixTapToPaySDK",
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Struct",
@@ -3703,6 +3737,59 @@
           },
           {
             "kind": "Var",
+            "name": "midResolutionFailed",
+            "printedName": "midResolutionFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> (Swift.String) -> FinixTapToPaySDK.TapToPayError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> FinixTapToPaySDK.TapToPayError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TapToPayError",
+                        "printedName": "FinixTapToPaySDK.TapToPayError",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TapToPayError",
+                        "printedName": "FinixTapToPaySDK.TapToPayError",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO19midResolutionFailedyACSScACmF",
+            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO19midResolutionFailedyACSScACmF",
+            "moduleName": "FinixTapToPaySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "unknown",
             "printedName": "unknown",
             "children": [
@@ -4915,6 +5002,16 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinixTapToPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       }
     ],
     "json_format_version": 8
@@ -4936,36 +5033,22 @@
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
-      "kind": "FloatLiteral",
-      "offset": 642,
-      "length": 4,
-      "value": "60.0"
-    },
-    {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
-      "kind": "FloatLiteral",
-      "offset": 748,
-      "length": 5,
-      "value": "120.0"
-    },
-    {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 7939,
+      "offset": 7910,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 9078,
+      "offset": 9049,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 10107,
+      "offset": 10078,
       "length": 3,
       "value": "[]"
     },
@@ -4996,6 +5079,20 @@
       "offset": 4713,
       "length": 3,
       "value": "300"
+    },
+    {
+      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6250,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 6444,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
@@ -5044,7 +5141,7 @@
       "kind": "StringLiteral",
       "offset": 402,
       "length": 7,
-      "value": "\"1.0.1\""
+      "value": "\"1.1.0\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
@@ -5075,51 +5172,58 @@
       "value": "\"CREDIT\""
     },
     {
+      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayMidResolver.swift",
+      "kind": "StringLiteral",
+      "offset": 6369,
+      "length": 19,
+      "value": "\"processor_details\""
+    },
+    {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTokenRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7677,
+      "offset": 7589,
       "length": 18,
       "value": "\"tap_to_pay_token\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayTransferRepository.swift",
       "kind": "StringLiteral",
-      "offset": 2262,
+      "offset": 2302,
       "length": 6,
       "value": "\"SALE\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3650,
+      "offset": 3652,
       "length": 23,
       "value": "\"masked_account_number\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3702,
+      "offset": 3704,
       "length": 15,
       "value": "\"approval_code\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3741,
+      "offset": 3743,
       "length": 10,
       "value": "\"trace_id\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3779,
+      "offset": 3781,
       "length": 14,
       "value": "\"failure_code\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3824,
+      "offset": 3826,
       "length": 17,
       "value": "\"failure_message\""
     }

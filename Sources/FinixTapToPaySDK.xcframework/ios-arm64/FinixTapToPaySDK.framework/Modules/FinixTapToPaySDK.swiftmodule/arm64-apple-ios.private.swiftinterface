@@ -18,7 +18,7 @@ import _SwiftConcurrencyShims
   final public func isAccountLinked() async -> Swift::Bool
   final public func linkAccount() async throws
   final public func prepareReader() async throws
-  final public func startTransaction(amount: Swift::Int, currency: Swift::String, type: FinixTapToPaySDK::TransactionType = .sale, identityId: Swift::String? = nil, surchargeAmount: Swift::Int? = nil, tipAmount: Swift::Int? = nil, signaturePending: Swift::Bool? = nil) async throws -> FinixTapToPaySDK::TapToPayTransactionResult
+  final public func startTransaction(amount: Swift::Int, currency: Swift::String, type: FinixTapToPaySDK::TransactionType = .sale, identityId: Swift::String? = nil, surchargeAmount: Swift::Int? = nil, tipAmount: Swift::Int? = nil, promptForSignature: Swift::Bool? = nil) async throws -> FinixTapToPaySDK::TapToPayTransactionResult
   final public func cancelTransaction() async throws
   final public func setUserInterfaceLanguage(_ language: Foundation::Locale.Foundation::Language?)
   public static func isSupported() -> Swift::Bool
@@ -50,9 +50,14 @@ public struct TapToPayConfiguration : Swift::Sendable {
   }
   public struct MerchantInfo : Swift::Sendable {
     public let merchantId: Swift::String
-    public let merchantMid: Swift::String
     public let merchantName: Swift::String
+    public init(merchantId: Swift::String, merchantName: Swift::String)
+    @available(*, deprecated, message: "The SDK resolves the mid from the Finix API and ignores this value. Use init(merchantId:merchantName:) and remove the merchantMid argument.")
     public init(merchantId: Swift::String, merchantMid: Swift::String, merchantName: Swift::String)
+    @available(*, deprecated, message: "The SDK resolves the mid from the Finix API and does not use this value.")
+    public var merchantMid: Swift::String {
+      get
+    }
   }
   public enum Environment : Swift::Sendable {
     case sandbox
@@ -107,6 +112,7 @@ public enum TapToPayError : Swift::Error, Foundation::LocalizedError, Swift::Equ
   case transactionCancelled
   case transactionFailed(Swift::String)
   case tokenFetchFailed(Swift::String)
+  case midResolutionFailed(Swift::String)
   case unknown(Swift::String)
   case accountAlreadyLinked
   case accountDeactivated
