@@ -96,7 +96,6 @@ let configuration = TapToPayConfiguration(
     credentials: .init(username: apiKey, password: apiSecret),
     merchant: .init(
         merchantId: "MU…",       // Finix Merchant id
-        merchantMid: "…",        // Merchant's processor MID
         merchantName: "Coffee Bar"
     ),
     environment: .sandbox,       // .sandbox or .production
@@ -106,7 +105,11 @@ let configuration = TapToPayConfiguration(
 let tapToPay = FinixTapToPay(configuration: configuration)
 ```
 
-Cache the instance and rebuild it only when `merchantId`, `merchantMid` **or** `environment` changes. Keying the cache on `merchantId` alone will reuse a configuration with a stale MID.
+Cache the instance and rebuild it only when `merchantId` **or** `environment` changes.
+
+The SDK resolves the merchant's processor MID from the Finix API. It caches the value per merchant. The SDK starts the fetch during `prepareReader()`, in parallel with the token fetch. A resolution failure fails the transaction with `TapToPayError.midResolutionFailed`.
+
+> **Deprecation notice:** `MerchantInfo.init(merchantId:merchantMid:merchantName:)` is deprecated. The SDK ignores the `merchantMid` value and resolves the MID from the Finix API. Existing code still compiles with a warning. Remove the `merchantMid:` argument before the next major version.
 
 ### 4. Link the merchant's Apple ID
 
@@ -227,7 +230,7 @@ Treat `accountAlreadyLinked` as success: Apple reports it when the account was l
 
 `startTransaction` also accepts `identityId` to associate the payment with an existing Finix Identity (buyer).
 
-`startTransaction` also takes the same charge breakdown as the PAX SDK: `tipAmount`, `surchargeAmount` (minor units) and `signaturePending`. `amount` is the base amount only — the SDK shows `amount + tipAmount` on Apple's tap sheet and reports `tip_amount`, `surcharge_amount` and `signature_pending` to Finix alongside `amount`. Pass the surcharge you computed from the device's basis points; whether it is applied (credit vs debit) is the backend's decision, and it never reaches the tap sheet. Omitted tip and surcharge are sent as `0`; an omitted `signaturePending` is not sent.
+`startTransaction` also takes the same charge breakdown as the PAX SDK: `tipAmount`, `surchargeAmount` (minor units) and `promptForSignature`. `amount` is the base amount only — the SDK shows `amount + tipAmount` on Apple's tap sheet and reports `tip_amount`, `surcharge_amount` and `signature_pending` to Finix alongside `amount`. Pass the surcharge you computed from the device's basis points; whether it is applied (credit vs debit) is the backend's decision, and it never reaches the tap sheet. Omitted tip and surcharge are sent as `0`; an omitted `promptForSignature` is not sent.
 
 The SDK re-prepares the reader after every transaction, as Apple requires — you don't need to call `prepareReader()` again between sales.
 
@@ -303,6 +306,7 @@ The framework statically links Datadog's `dd-sdk-ios` (3.6.1) for diagnostics.
 | `readerPreparationFailed` right after install | Entitlement missing from the build, or profile not regenerated |
 | Transaction fails mentioning activation | Device created but never activated — repeat the `ACTIVATE` call |
 | `tokenFetchFailed` | Wrong environment for the credentials, or MID not provisioned |
+| `midResolutionFailed` | The SDK could not fetch the merchant's MID — check the credentials and merchant id, then retry |
 | Apple's sheet never appears | Not linked; call `linkAccount()` first |
 
 ## Demo app
