@@ -1861,7 +1861,6 @@
         "declKind": "Import",
         "moduleName": "FinixTapToPaySDK",
         "declAttributes": [
-          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -1870,20 +1869,14 @@
         "name": "DatadogCrashReporting",
         "printedName": "DatadogCrashReporting",
         "declKind": "Import",
-        "moduleName": "FinixTapToPaySDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
+        "moduleName": "FinixTapToPaySDK"
       },
       {
         "kind": "Import",
         "name": "DatadogLogs",
         "printedName": "DatadogLogs",
         "declKind": "Import",
-        "moduleName": "FinixTapToPaySDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
+        "moduleName": "FinixTapToPaySDK"
       },
       {
         "kind": "Import",
@@ -5097,21 +5090,21 @@
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "BooleanLiteral",
-      "offset": 2924,
+      "offset": 2898,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 8034,
+      "offset": 8008,
       "length": 37,
       "value": "\"pub955758c645eb9f4643f15afe68f18d78\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 8108,
+      "offset": 8082,
       "length": 20,
       "value": "\"finix-taptopay-sdk\""
     },
