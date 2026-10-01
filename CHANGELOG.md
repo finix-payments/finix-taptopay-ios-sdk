@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-10-01
+
 ### Added
 
 - Optional `tipAmount`, `surchargeAmount` and `promptForSignature` on `startTransaction`, sent to Finix as `tip_amount`, `surcharge_amount` and `signature_pending` alongside the base `amount` — the same breakdown the PAX SDK sends; Apple's tap sheet shows `amount + tipAmount`
