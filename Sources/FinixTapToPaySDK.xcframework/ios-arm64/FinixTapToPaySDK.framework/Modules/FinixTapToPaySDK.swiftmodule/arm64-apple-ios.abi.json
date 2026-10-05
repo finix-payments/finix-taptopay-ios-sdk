@@ -1856,8 +1856,8 @@
       },
       {
         "kind": "Import",
-        "name": "DatadogCore",
-        "printedName": "DatadogCore",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "FinixTapToPaySDK",
         "declAttributes": [
@@ -1865,25 +1865,761 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "DatadogCrashReporting",
-        "printedName": "DatadogCrashReporting",
-        "declKind": "Import",
-        "moduleName": "FinixTapToPaySDK"
+        "kind": "TypeDecl",
+        "name": "DatadogLogLevel",
+        "printedName": "DatadogLogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinixTapToPaySDK.DatadogLogLevel.Type) -> FinixTapToPaySDK.DatadogLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatadogLogLevel",
+                    "printedName": "FinixTapToPaySDK.DatadogLogLevel",
+                    "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinixTapToPaySDK.DatadogLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatadogLogLevel",
+                        "printedName": "FinixTapToPaySDK.DatadogLogLevel",
+                        "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO5debugyA2CmF",
+            "mangledName": "$s16FinixTapToPaySDK15DatadogLogLevelO5debugyA2CmF",
+            "moduleName": "FinixTapToPaySDK",
+            "fixedbinaryorder": 0,
+            "spi_group_names": [
+              "FinixDatadog"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinixTapToPaySDK.DatadogLogLevel.Type) -> FinixTapToPaySDK.DatadogLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatadogLogLevel",
+                    "printedName": "FinixTapToPaySDK.DatadogLogLevel",
+                    "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinixTapToPaySDK.DatadogLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatadogLogLevel",
+                        "printedName": "FinixTapToPaySDK.DatadogLogLevel",
+                        "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO4infoyA2CmF",
+            "mangledName": "$s16FinixTapToPaySDK15DatadogLogLevelO4infoyA2CmF",
+            "moduleName": "FinixTapToPaySDK",
+            "fixedbinaryorder": 1,
+            "spi_group_names": [
+              "FinixDatadog"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "warn",
+            "printedName": "warn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinixTapToPaySDK.DatadogLogLevel.Type) -> FinixTapToPaySDK.DatadogLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatadogLogLevel",
+                    "printedName": "FinixTapToPaySDK.DatadogLogLevel",
+                    "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinixTapToPaySDK.DatadogLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatadogLogLevel",
+                        "printedName": "FinixTapToPaySDK.DatadogLogLevel",
+                        "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO4warnyA2CmF",
+            "mangledName": "$s16FinixTapToPaySDK15DatadogLogLevelO4warnyA2CmF",
+            "moduleName": "FinixTapToPaySDK",
+            "fixedbinaryorder": 2,
+            "spi_group_names": [
+              "FinixDatadog"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinixTapToPaySDK.DatadogLogLevel.Type) -> FinixTapToPaySDK.DatadogLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatadogLogLevel",
+                    "printedName": "FinixTapToPaySDK.DatadogLogLevel",
+                    "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FinixTapToPaySDK.DatadogLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatadogLogLevel",
+                        "printedName": "FinixTapToPaySDK.DatadogLogLevel",
+                        "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO5erroryA2CmF",
+            "mangledName": "$s16FinixTapToPaySDK15DatadogLogLevelO5erroryA2CmF",
+            "moduleName": "FinixTapToPaySDK",
+            "fixedbinaryorder": 3,
+            "spi_group_names": [
+              "FinixDatadog"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DatadogLogLevel",
+                "printedName": "FinixTapToPaySDK.DatadogLogLevel",
+                "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DatadogLogLevel",
+                "printedName": "FinixTapToPaySDK.DatadogLogLevel",
+                "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16FinixTapToPaySDK15DatadogLogLevelO2eeoiySbAC_ACtFZ",
+            "moduleName": "FinixTapToPaySDK",
+            "static": true,
+            "implicit": true,
+            "spi_group_names": [
+              "FinixDatadog"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO9hashValueSivp",
+            "mangledName": "$s16FinixTapToPaySDK15DatadogLogLevelO9hashValueSivp",
+            "moduleName": "FinixTapToPaySDK",
+            "implicit": true,
+            "spi_group_names": [
+              "FinixDatadog"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO9hashValueSivg",
+                "mangledName": "$s16FinixTapToPaySDK15DatadogLogLevelO9hashValueSivg",
+                "moduleName": "FinixTapToPaySDK",
+                "implicit": true,
+                "spi_group_names": [
+                  "FinixDatadog"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16FinixTapToPaySDK15DatadogLogLevelO4hash4intoys6HasherVz_tF",
+            "moduleName": "FinixTapToPaySDK",
+            "implicit": true,
+            "spi_group_names": [
+              "FinixDatadog"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO",
+        "mangledName": "$s16FinixTapToPaySDK15DatadogLogLevelO",
+        "moduleName": "FinixTapToPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "Frozen",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "FinixDatadog"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
       },
       {
-        "kind": "Import",
-        "name": "DatadogLogs",
-        "printedName": "DatadogLogs",
-        "declKind": "Import",
-        "moduleName": "FinixTapToPaySDK"
+        "kind": "TypeDecl",
+        "name": "DatadogLogSinking",
+        "printedName": "DatadogLogSinking",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(level:message:attributes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DatadogLogLevel",
+                "printedName": "FinixTapToPaySDK.DatadogLogLevel",
+                "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : any Swift.Encodable]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : any Swift.Encodable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encodable",
+                        "printedName": "any Swift.Encodable",
+                        "usr": "s:SE"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FinixTapToPaySDK17DatadogLogSinkingP3log5level7message10attributesyAA0fG5LevelO_SSSDySSSE_pGSgtF",
+            "mangledName": "$s16FinixTapToPaySDK17DatadogLogSinkingP3log5level7message10attributesyAA0fG5LevelO_SSSDySSSE_pGSgtF",
+            "moduleName": "FinixTapToPaySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FinixTapToPaySDK.DatadogLogSinking>",
+            "sugared_genericSig": "<Self where Self : FinixTapToPaySDK.DatadogLogSinking>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "FinixDatadog"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16FinixTapToPaySDK17DatadogLogSinkingP",
+        "mangledName": "$s16FinixTapToPaySDK17DatadogLogSinkingP",
+        "moduleName": "FinixTapToPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "FinixDatadog"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FinixTapToPaySDK"
+        "kind": "TypeDecl",
+        "name": "DatadogBootstrapping",
+        "printedName": "DatadogBootstrapping",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isInitialized",
+            "printedName": "isInitialized(instanceName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FinixTapToPaySDK20DatadogBootstrappingP13isInitialized12instanceNameSbSS_tF",
+            "mangledName": "$s16FinixTapToPaySDK20DatadogBootstrappingP13isInitialized12instanceNameSbSS_tF",
+            "moduleName": "FinixTapToPaySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FinixTapToPaySDK.DatadogBootstrapping>",
+            "sugared_genericSig": "<Self where Self : FinixTapToPaySDK.DatadogBootstrapping>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "FinixDatadog"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isDefaultInstanceInitialized",
+            "printedName": "isDefaultInstanceInitialized()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FinixTapToPaySDK20DatadogBootstrappingP28isDefaultInstanceInitializedSbyF",
+            "mangledName": "$s16FinixTapToPaySDK20DatadogBootstrappingP28isDefaultInstanceInitializedSbyF",
+            "moduleName": "FinixTapToPaySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FinixTapToPaySDK.DatadogBootstrapping>",
+            "sugared_genericSig": "<Self where Self : FinixTapToPaySDK.DatadogBootstrapping>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "FinixDatadog"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(instanceName:clientToken:env:service:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FinixTapToPaySDK20DatadogBootstrappingP10initialize12instanceName11clientToken3env7serviceySS_S3StF",
+            "mangledName": "$s16FinixTapToPaySDK20DatadogBootstrappingP10initialize12instanceName11clientToken3env7serviceySS_S3StF",
+            "moduleName": "FinixTapToPaySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FinixTapToPaySDK.DatadogBootstrapping>",
+            "sugared_genericSig": "<Self where Self : FinixTapToPaySDK.DatadogBootstrapping>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "FinixDatadog"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserInfo",
+            "printedName": "setUserInfo(instanceName:id:extraInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FinixTapToPaySDK20DatadogBootstrappingP11setUserInfo12instanceName2id05extraJ0ySS_SSSDyS2SGtF",
+            "mangledName": "$s16FinixTapToPaySDK20DatadogBootstrappingP11setUserInfo12instanceName2id05extraJ0ySS_SSSDyS2SGtF",
+            "moduleName": "FinixTapToPaySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FinixTapToPaySDK.DatadogBootstrapping>",
+            "sugared_genericSig": "<Self where Self : FinixTapToPaySDK.DatadogBootstrapping>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "FinixDatadog"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableLogs",
+            "printedName": "enableLogs(instanceName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FinixTapToPaySDK20DatadogBootstrappingP10enableLogs12instanceNameySS_tF",
+            "mangledName": "$s16FinixTapToPaySDK20DatadogBootstrappingP10enableLogs12instanceNameySS_tF",
+            "moduleName": "FinixTapToPaySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FinixTapToPaySDK.DatadogBootstrapping>",
+            "sugared_genericSig": "<Self where Self : FinixTapToPaySDK.DatadogBootstrapping>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "FinixDatadog"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableCrashReporting",
+            "printedName": "enableCrashReporting(instanceName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FinixTapToPaySDK20DatadogBootstrappingP20enableCrashReporting12instanceNameySS_tF",
+            "mangledName": "$s16FinixTapToPaySDK20DatadogBootstrappingP20enableCrashReporting12instanceNameySS_tF",
+            "moduleName": "FinixTapToPaySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FinixTapToPaySDK.DatadogBootstrapping>",
+            "sugared_genericSig": "<Self where Self : FinixTapToPaySDK.DatadogBootstrapping>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "FinixDatadog"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeLogger",
+            "printedName": "makeLogger(instanceName:service:name:remoteLogThreshold:consoleLogPrefix:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DatadogLogSinking",
+                "printedName": "any FinixTapToPaySDK.DatadogLogSinking",
+                "usr": "s:16FinixTapToPaySDK17DatadogLogSinkingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DatadogLogLevel",
+                "printedName": "FinixTapToPaySDK.DatadogLogLevel",
+                "usr": "s:16FinixTapToPaySDK15DatadogLogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16FinixTapToPaySDK20DatadogBootstrappingP10makeLogger12instanceName7service4name18remoteLogThreshold07consoleO6PrefixAA0fO7Sinking_pSS_S2SAA0fO5LevelOSSSgtF",
+            "mangledName": "$s16FinixTapToPaySDK20DatadogBootstrappingP10makeLogger12instanceName7service4name18remoteLogThreshold07consoleO6PrefixAA0fO7Sinking_pSS_S2SAA0fO5LevelOSSSgtF",
+            "moduleName": "FinixTapToPaySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FinixTapToPaySDK.DatadogBootstrapping>",
+            "sugared_genericSig": "<Self where Self : FinixTapToPaySDK.DatadogBootstrapping>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "FinixDatadog"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16FinixTapToPaySDK20DatadogBootstrappingP",
+        "mangledName": "$s16FinixTapToPaySDK20DatadogBootstrappingP",
+        "moduleName": "FinixTapToPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "FinixDatadog"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -5322,22 +6058,36 @@
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2779,
+      "length": 32,
+      "value": "\"FinixTapToPaySDKDatadogAdapter\""
+    },
+    {
+      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "BooleanLiteral",
-      "offset": 2898,
+      "offset": 3940,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 8008,
+      "offset": 9285,
       "length": 37,
       "value": "\"pub955758c645eb9f4643f15afe68f18d78\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 8082,
+      "offset": 9360,
+      "length": 18,
+      "value": "\"FinixTapToPaySDK\""
+    },
+    {
+      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 9415,
       "length": 20,
       "value": "\"finix-taptopay-sdk\""
     },

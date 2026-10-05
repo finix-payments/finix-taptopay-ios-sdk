@@ -3,9 +3,6 @@
 // swift-module-flags: -target x86_64-apple-ios18.1-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FinixTapToPaySDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import Combine
-import DatadogCore
-import DatadogCrashReporting
-import DatadogLogs
 import Foundation
 import ProximityReader
 import Swift

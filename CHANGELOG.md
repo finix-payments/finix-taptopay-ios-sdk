@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Datadog is no longer built into the binary. The package now depends on `dd-sdk-ios` (from 3.6.1), which Swift Package Manager adds for you. An app that also uses Datadog no longer loads a second copy from this SDK, the source of the "Class … is implemented in both" warnings. The SDK logs to its own Datadog instance and never touches the app's.
+
 ## [1.2.0] - 2026-10-01
 
 ### Added

@@ -3,9 +3,6 @@
 // swift-module-flags: -target arm64-apple-ios18.1-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FinixTapToPaySDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import Combine
-import DatadogCore
-import DatadogCrashReporting
-import DatadogLogs
 import Foundation
 import ProximityReader
 import Swift
@@ -71,6 +68,29 @@ public struct TapToPayConfiguration : Swift::Sendable {
       get
     }
   }
+}
+@_spi(FinixDatadog) @frozen public enum DatadogLogLevel {
+  @_spi(FinixDatadog) case debug
+  @_spi(FinixDatadog) case info
+  @_spi(FinixDatadog) case warn
+  @_spi(FinixDatadog) case error
+  @_spi(FinixDatadog) public static func == (a: FinixTapToPaySDK::DatadogLogLevel, b: FinixTapToPaySDK::DatadogLogLevel) -> Swift::Bool
+  @_spi(FinixDatadog) public func hash(into hasher: inout Swift::Hasher)
+  @_spi(FinixDatadog) public var hashValue: Swift::Int {
+    @_spi(FinixDatadog) get
+  }
+}
+@_spi(FinixDatadog) public protocol DatadogLogSinking {
+  @_spi(FinixDatadog) func log(level: FinixTapToPaySDK::DatadogLogLevel, message: Swift::String, attributes: [Swift::String : any Swift::Encodable]?)
+}
+@_spi(FinixDatadog) public protocol DatadogBootstrapping {
+  @_spi(FinixDatadog) func isInitialized(instanceName: Swift::String) -> Swift::Bool
+  @_spi(FinixDatadog) func isDefaultInstanceInitialized() -> Swift::Bool
+  @_spi(FinixDatadog) func initialize(instanceName: Swift::String, clientToken: Swift::String, env: Swift::String, service: Swift::String)
+  @_spi(FinixDatadog) func setUserInfo(instanceName: Swift::String, id: Swift::String, extraInfo: [Swift::String : Swift::String])
+  @_spi(FinixDatadog) func enableLogs(instanceName: Swift::String)
+  @_spi(FinixDatadog) func enableCrashReporting(instanceName: Swift::String)
+  @_spi(FinixDatadog) func makeLogger(instanceName: Swift::String, service: Swift::String, name: Swift::String, remoteLogThreshold: FinixTapToPaySDK::DatadogLogLevel, consoleLogPrefix: Swift::String?) -> any FinixTapToPaySDK::DatadogLogSinking
 }
 public enum TransactionType : Swift::String, Swift::Encodable, Swift::CaseIterable, Swift::Sendable {
   case sale
@@ -153,6 +173,10 @@ public enum TapToPayTransactionEvent : Swift::Equatable, Swift::Sendable {
 }
 extension FinixTapToPaySDK::TapToPayConfiguration.FinixTapToPaySDK::Environment : Swift::Equatable {}
 extension FinixTapToPaySDK::TapToPayConfiguration.FinixTapToPaySDK::Environment : Swift::Hashable {}
+@_spi(FinixDatadog) extension FinixTapToPaySDK::DatadogLogLevel : Swift::Equatable {}
+@_spi(FinixDatadog) extension FinixTapToPaySDK::DatadogLogLevel : Swift::Hashable {}
+@_spi(FinixDatadog) extension FinixTapToPaySDK::DatadogLogLevel : Swift::Sendable {}
+@_spi(FinixDatadog) extension FinixTapToPaySDK::DatadogLogLevel : Swift::BitwiseCopyable {}
 extension FinixTapToPaySDK::TransactionType : Swift::Equatable {}
 extension FinixTapToPaySDK::TransactionType : Swift::Hashable {}
 extension FinixTapToPaySDK::TransactionType : Swift::RawRepresentable {}
