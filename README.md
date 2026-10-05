@@ -107,7 +107,7 @@ let tapToPay = FinixTapToPay(configuration: configuration)
 
 Cache the instance and rebuild it only when `merchantId` **or** `environment` changes.
 
-The SDK resolves the merchant's processor MID from the Finix API. It caches the value per merchant. The SDK starts the fetch during `prepareReader()`, in parallel with the token fetch. A resolution failure fails the transaction with `TapToPayError.midResolutionFailed`.
+The SDK resolves the merchant's processor MID from the Finix API. It caches the value per merchant. The SDK starts the fetch during `prepareReader()`, in parallel with the token fetch. A resolution failure fails the transaction with a `TapToPayError` whose `code` is `.midResolutionFailed`.
 
 > **Deprecation notice:** `MerchantInfo.init(merchantId:merchantMid:merchantName:)` is deprecated. The SDK ignores the `merchantMid` value and resolves the MID from the Finix API. Existing code still compiles with a warning. Remove the `merchantMid:` argument before the next major version.
 
@@ -117,7 +117,7 @@ The SDK resolves the merchant's processor MID from the Finix API. It caches the 
 if await tapToPay.isAccountLinked() == false {
     do {
         try await tapToPay.linkAccount()   // presents Apple's terms
-    } catch TapToPayError.accountAlreadyLinked {
+    } catch let error as TapToPayError where error.code == .accountAlreadyLinked {
         // Already linked — treat as success
     }
 }
@@ -226,7 +226,7 @@ Treat `accountAlreadyLinked` as success: Apple reports it when the account was l
 
 `preparingTransaction → readingCard → cardRead → processing → success | failure`
 
-`cancelTransaction()` ends an in-flight transaction; subscribers receive `.failure(.transactionCancelled)`.
+`cancelTransaction()` ends an in-flight transaction; subscribers receive `.failure` with an error whose `code` is `.transactionCancelled`.
 
 `startTransaction` also accepts `identityId` to associate the payment with an existing Finix Identity (buyer).
 
@@ -250,9 +250,9 @@ Use a BCP-47 tag (`fr-CA`, not `fr_CA`). Pass `nil` to follow the device languag
 
 ## Errors
 
-Every SDK call throws `TapToPayError`, which conforms to `LocalizedError`.
+Every SDK call throws `TapToPayError`, which conforms to `LocalizedError`. Switch over its `code` (a `TapToPayError.Code`) to handle each failure, with an `@unknown default` so codes added later don't break your build.
 
-| Case | When | Handling |
+| Code | When | Handling |
 |---|---|---|
 | `notSupported` | Device or OS can't do Tap to Pay | Hide Tap to Pay UI |
 | `notConfigured` | SDK used before configuration | Fix initialization order |
@@ -267,6 +267,7 @@ Every SDK call throws `TapToPayError`, which conforms to `LocalizedError`.
 | `transactionCancelled` | Cancelled by merchant or buyer | Return to the amount screen |
 | `transactionFailed(String)` | Processing declined or errored | Show the message; allow retry |
 | `tokenFetchFailed(String)` | Couldn't obtain a payment token | Check credentials and connectivity |
+| `midResolutionFailed(String)` | Couldn't fetch the merchant's processor MID | Check credentials and merchant id; retry |
 | `emptyReaderToken` / `invalidReaderToken(String?)` | Token rejected by Apple | Retry; then contact Finix support |
 | `invalidMerchant` | Merchant not provisioned for Tap to Pay | Contact Finix |
 | `merchantBlocked` | Merchant blocked from processing | Contact Finix |
@@ -275,6 +276,8 @@ Every SDK call throws `TapToPayError`, which conforms to `LocalizedError`.
 | `networkAuthenticationError` | Network rejected authentication | Check credentials |
 | `backgroundRequestNotAllowed` | Called while backgrounded | Retry in the foreground |
 | `unknown(String)` | Unclassified failure | Log and report to Finix |
+
+When the failure came from a Finix API response, `error.logref` carries that response's Finix `logref` (its `x-request-id` header; `nil` for reader-side failures and when no response arrived). Include it when you contact Finix support so we can find the exact request.
 
 ## Testing
 

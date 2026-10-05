@@ -3403,1058 +3403,1291 @@
         "children": [
           {
             "kind": "Var",
-            "name": "notSupported",
-            "printedName": "notSupported",
+            "name": "code",
+            "printedName": "code",
             "children": [
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
+                "kind": "TypeNominal",
+                "name": "Code",
+                "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4codeAC4CodeOvp",
+            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4codeAC4CodeOvp",
+            "moduleName": "FinixTapToPaySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
+                    "name": "Code",
+                    "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
                   }
-                ]
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4codeAC4CodeOvg",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4codeAC4CodeOvg",
+                "moduleName": "FinixTapToPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
               }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO12notSupportedyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO12notSupportedyA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
             ]
           },
           {
             "kind": "Var",
-            "name": "notConfigured",
-            "printedName": "notConfigured",
+            "name": "logref",
+            "printedName": "logref",
             "children": [
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
-                ]
+                ],
+                "usr": "s:Sq"
               }
             ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO13notConfiguredyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO13notConfiguredyA2CmF",
+            "declKind": "Var",
+            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV6logrefSSSgvp",
+            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV6logrefSSSgvp",
             "moduleName": "FinixTapToPaySDK",
             "declAttributes": [
+              "HasStorage",
+              "AccessControl",
               "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "accountNotLinked",
-            "printedName": "accountNotLinked",
-            "children": [
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
-                    ]
+                    ],
+                    "usr": "s:Sq"
                   }
-                ]
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV6logrefSSSgvg",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV6logrefSSSgvg",
+                "moduleName": "FinixTapToPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
               }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO16accountNotLinkedyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO16accountNotLinkedyA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
             ]
           },
           {
-            "kind": "Var",
-            "name": "readerPreparationFailed",
-            "printedName": "readerPreparationFailed",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:logref:)",
             "children": [
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> (Swift.String?) -> FinixTapToPaySDK.TapToPayError",
+                "kind": "TypeNominal",
+                "name": "TapToPayError",
+                "printedName": "FinixTapToPaySDK.TapToPayError",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Code",
+                "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV_6logrefA2C4CodeO_SSSgtcfc",
+            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV_6logrefA2C4CodeO_SSSgtcfc",
+            "moduleName": "FinixTapToPaySDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Code",
+            "printedName": "Code",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "notSupported",
+                "printedName": "notSupported",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String?) -> FinixTapToPaySDK.TapToPayError",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
                         "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO12notSupportedyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO12notSupportedyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "notConfigured",
+                "printedName": "notConfigured",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO13notConfiguredyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO13notConfiguredyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accountNotLinked",
+                "printedName": "accountNotLinked",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO16accountNotLinkedyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO16accountNotLinkedyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "readerPreparationFailed",
+                "printedName": "readerPreparationFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> (Swift.String?) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String?) -> FinixTapToPaySDK.TapToPayError.Code",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO23readerPreparationFailedyAESSSgcAEmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO23readerPreparationFailedyAESSSgcAEmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "transactionCancelled",
+                "printedName": "transactionCancelled",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO20transactionCancelledyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO20transactionCancelledyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "transactionFailed",
+                "printedName": "transactionFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> (Swift.String) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> FinixTapToPaySDK.TapToPayError.Code",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          },
                           {
                             "kind": "TypeNominal",
                             "name": "String",
                             "printedName": "Swift.String",
                             "usr": "s:SS"
                           }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO23readerPreparationFailedyACSSSgcACmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO23readerPreparationFailedyACSSSgcACmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "transactionCancelled",
-            "printedName": "transactionCancelled",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO20transactionCancelledyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO20transactionCancelledyA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "transactionFailed",
-            "printedName": "transactionFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> (Swift.String) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> FinixTapToPaySDK.TapToPayError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
+                        ]
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO17transactionFailedyACSScACmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO17transactionFailedyACSScACmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "tokenFetchFailed",
-            "printedName": "tokenFetchFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> (Swift.String) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> FinixTapToPaySDK.TapToPayError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO16tokenFetchFailedyACSScACmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO16tokenFetchFailedyACSScACmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "midResolutionFailed",
-            "printedName": "midResolutionFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> (Swift.String) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> FinixTapToPaySDK.TapToPayError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO19midResolutionFailedyACSScACmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO19midResolutionFailedyACSScACmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "unknown",
-            "printedName": "unknown",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> (Swift.String) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> FinixTapToPaySDK.TapToPayError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO7unknownyACSScACmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO7unknownyACSScACmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "accountAlreadyLinked",
-            "printedName": "accountAlreadyLinked",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO20accountAlreadyLinkedyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO20accountAlreadyLinkedyA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "accountDeactivated",
-            "printedName": "accountDeactivated",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO18accountDeactivatedyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO18accountDeactivatedyA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "accountLinkingCancelled",
-            "printedName": "accountLinkingCancelled",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO23accountLinkingCancelledyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO23accountLinkingCancelledyA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "accountLinkingCheckFailed",
-            "printedName": "accountLinkingCheckFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO25accountLinkingCheckFailedyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO25accountLinkingCheckFailedyA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "accountLinkingFailed",
-            "printedName": "accountLinkingFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> (Swift.String?) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String?) -> FinixTapToPaySDK.TapToPayError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
                         "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO17transactionFailedyAESScAEmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO17transactionFailedyAESScAEmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "tokenFetchFailed",
+                "printedName": "tokenFetchFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> (Swift.String) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> FinixTapToPaySDK.TapToPayError.Code",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          },
                           {
                             "kind": "TypeNominal",
                             "name": "String",
                             "printedName": "Swift.String",
                             "usr": "s:SS"
                           }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO20accountLinkingFailedyACSSSgcACmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO20accountLinkingFailedyACSSSgcACmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "accountLinkingRequiresiCloudSignIn",
-            "printedName": "accountLinkingRequiresiCloudSignIn",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO34accountLinkingRequiresiCloudSignInyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO34accountLinkingRequiresiCloudSignInyA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "backgroundRequestNotAllowed",
-            "printedName": "backgroundRequestNotAllowed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO27backgroundRequestNotAllowedyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO27backgroundRequestNotAllowedyA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "deviceBanned",
-            "printedName": "deviceBanned",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> (Foundation.Date?) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Foundation.Date?) -> FinixTapToPaySDK.TapToPayError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
+                        ]
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Foundation.Date?",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "Date",
-                            "printedName": "Foundation.Date",
-                            "usr": "s:10Foundation4DateV"
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
                           }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
+                        ]
                       }
                     ]
                   }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO16tokenFetchFailedyAESScAEmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO16tokenFetchFailedyAESScAEmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
                 ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO12deviceBannedyAC10Foundation4DateVSgcACmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO12deviceBannedyAC10Foundation4DateVSgcACmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "emptyReaderToken",
-            "printedName": "emptyReaderToken",
-            "children": [
+              },
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO16emptyReaderTokenyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO16emptyReaderTokenyA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidMerchant",
-            "printedName": "invalidMerchant",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO15invalidMerchantyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO15invalidMerchantyA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "invalidReaderToken",
-            "printedName": "invalidReaderToken",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> (Swift.String?) -> FinixTapToPaySDK.TapToPayError",
+                "kind": "Var",
+                "name": "midResolutionFailed",
+                "printedName": "midResolutionFailed",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String?) -> FinixTapToPaySDK.TapToPayError",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> (Swift.String) -> FinixTapToPaySDK.TapToPayError.Code",
                     "children": [
                       {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> FinixTapToPaySDK.TapToPayError.Code",
                         "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          },
                           {
                             "kind": "TypeNominal",
                             "name": "String",
                             "printedName": "Swift.String",
                             "usr": "s:SS"
                           }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
+                        ]
+                      },
                       {
                         "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
                       }
                     ]
                   }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO19midResolutionFailedyAESScAEmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO19midResolutionFailedyAESScAEmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
                 ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO18invalidReaderTokenyACSSSgcACmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO18invalidReaderTokenyACSSSgcACmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "merchantBlocked",
-            "printedName": "merchantBlocked",
-            "children": [
+              },
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
+                "kind": "Var",
+                "name": "unknown",
+                "printedName": "unknown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> (Swift.String) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> FinixTapToPaySDK.TapToPayError.Code",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO7unknownyAESScAEmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO7unknownyAESScAEmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accountAlreadyLinked",
+                "printedName": "accountAlreadyLinked",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO20accountAlreadyLinkedyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO20accountAlreadyLinkedyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accountDeactivated",
+                "printedName": "accountDeactivated",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO18accountDeactivatedyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO18accountDeactivatedyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accountLinkingCancelled",
+                "printedName": "accountLinkingCancelled",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO23accountLinkingCancelledyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO23accountLinkingCancelledyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accountLinkingCheckFailed",
+                "printedName": "accountLinkingCheckFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO25accountLinkingCheckFailedyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO25accountLinkingCheckFailedyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accountLinkingFailed",
+                "printedName": "accountLinkingFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> (Swift.String?) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String?) -> FinixTapToPaySDK.TapToPayError.Code",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO20accountLinkingFailedyAESSSgcAEmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO20accountLinkingFailedyAESSSgcAEmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accountLinkingRequiresiCloudSignIn",
+                "printedName": "accountLinkingRequiresiCloudSignIn",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO34accountLinkingRequiresiCloudSignInyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO34accountLinkingRequiresiCloudSignInyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "backgroundRequestNotAllowed",
+                "printedName": "backgroundRequestNotAllowed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO27backgroundRequestNotAllowedyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO27backgroundRequestNotAllowedyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "deviceBanned",
+                "printedName": "deviceBanned",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> (Foundation.Date?) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.Date?) -> FinixTapToPaySDK.TapToPayError.Code",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Foundation.Date?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Date",
+                                "printedName": "Foundation.Date",
+                                "usr": "s:10Foundation4DateV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO12deviceBannedyAE10Foundation4DateVSgcAEmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO12deviceBannedyAE10Foundation4DateVSgcAEmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "emptyReaderToken",
+                "printedName": "emptyReaderToken",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO16emptyReaderTokenyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO16emptyReaderTokenyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "invalidMerchant",
+                "printedName": "invalidMerchant",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO15invalidMerchantyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO15invalidMerchantyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "invalidReaderToken",
+                "printedName": "invalidReaderToken",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> (Swift.String?) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String?) -> FinixTapToPaySDK.TapToPayError.Code",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO18invalidReaderTokenyAESSSgcAEmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO18invalidReaderTokenyAESSSgcAEmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "merchantBlocked",
+                "printedName": "merchantBlocked",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO15merchantBlockedyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO15merchantBlockedyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "modelNotSupported",
+                "printedName": "modelNotSupported",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO17modelNotSupportedyA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO17modelNotSupportedyA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "networkAuthenticationError",
+                "printedName": "networkAuthenticationError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FinixTapToPaySDK.TapToPayError.Code.Type) -> FinixTapToPaySDK.TapToPayError.Code",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Code",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FinixTapToPaySDK.TapToPayError.Code.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Code",
+                            "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO021networkAuthenticationF0yA2EmF",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO021networkAuthenticationF0yA2EmF",
+                "moduleName": "FinixTapToPaySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
+                    "name": "Code",
+                    "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Code",
+                    "printedName": "FinixTapToPaySDK.TapToPayError.Code",
+                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO"
                   }
-                ]
+                ],
+                "declKind": "Func",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO2eeoiySbAE_AEtFZ",
+                "moduleName": "FinixTapToPaySDK",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
               }
             ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO15merchantBlockedyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO15merchantBlockedyA2CmF",
+            "declKind": "Enum",
+            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV4CodeO",
+            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV4CodeO",
             "moduleName": "FinixTapToPaySDK",
             "declAttributes": [
+              "AccessControl",
               "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "modelNotSupported",
-            "printedName": "modelNotSupported",
-            "children": [
+            ],
+            "conformances": [
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO17modelNotSupportedyA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO17modelNotSupportedyA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "networkAuthenticationError",
-            "printedName": "networkAuthenticationError",
-            "children": [
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FinixTapToPaySDK.TapToPayError.Type) -> FinixTapToPaySDK.TapToPayError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TapToPayError",
-                    "printedName": "FinixTapToPaySDK.TapToPayError",
-                    "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FinixTapToPaySDK.TapToPayError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TapToPayError",
-                        "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
-                      }
-                    ]
-                  }
-                ]
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO021networkAuthenticationF0yA2CmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO021networkAuthenticationF0yA2CmF",
-            "moduleName": "FinixTapToPaySDK",
-            "declAttributes": [
-              "RawDocComment"
             ]
           },
           {
@@ -4478,8 +4711,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO16errorDescriptionSSSgvp",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO16errorDescriptionSSSgvp",
+            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV16errorDescriptionSSSgvp",
+            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV16errorDescriptionSSSgvp",
             "moduleName": "FinixTapToPaySDK",
             "declAttributes": [
               "AccessControl"
@@ -4506,8 +4739,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16FinixTapToPaySDK0bcD5ErrorO16errorDescriptionSSSgvg",
-                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO16errorDescriptionSSSgvg",
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV16errorDescriptionSSSgvg",
+                "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV16errorDescriptionSSSgvg",
                 "moduleName": "FinixTapToPaySDK",
                 "accessorKind": "get"
               }
@@ -4528,27 +4761,27 @@
                 "kind": "TypeNominal",
                 "name": "TapToPayError",
                 "printedName": "FinixTapToPaySDK.TapToPayError",
-                "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV"
               },
               {
                 "kind": "TypeNominal",
                 "name": "TapToPayError",
                 "printedName": "FinixTapToPaySDK.TapToPayError",
-                "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
+                "usr": "s:16FinixTapToPaySDK0bcD5ErrorV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16FinixTapToPaySDK0bcD5ErrorO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO2eeoiySbAC_ACtFZ",
+            "usr": "s:16FinixTapToPaySDK0bcD5ErrorV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV2eeoiySbAC_ACtFZ",
             "moduleName": "FinixTapToPaySDK",
             "static": true,
             "implicit": true,
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Enum",
-        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO",
-        "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorO",
+        "declKind": "Struct",
+        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV",
+        "mangledName": "$s16FinixTapToPaySDK0bcD5ErrorV",
         "moduleName": "FinixTapToPaySDK",
         "declAttributes": [
           "AccessControl",
@@ -4849,7 +5082,7 @@
                         "kind": "TypeNominal",
                         "name": "TapToPayError",
                         "printedName": "FinixTapToPaySDK.TapToPayError",
-                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorO"
+                        "usr": "s:16FinixTapToPaySDK0bcD5ErrorV"
                       }
                     ]
                   },
@@ -4870,8 +5103,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:16FinixTapToPaySDK0bcD16TransactionEventO7failureyAcA0bcD5ErrorOcACmF",
-            "mangledName": "$s16FinixTapToPaySDK0bcD16TransactionEventO7failureyAcA0bcD5ErrorOcACmF",
+            "usr": "s:16FinixTapToPaySDK0bcD16TransactionEventO7failureyAcA0bcD5ErrorVcACmF",
+            "mangledName": "$s16FinixTapToPaySDK0bcD16TransactionEventO7failureyAcA0bcD5ErrorVcACmF",
             "moduleName": "FinixTapToPaySDK",
             "declAttributes": [
               "RawDocComment"
@@ -5027,21 +5260,21 @@
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 7910,
+      "offset": 8850,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 9049,
+      "offset": 10084,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 10078,
+      "offset": 11184,
       "length": 3,
       "value": "[]"
     },
@@ -5167,14 +5400,14 @@
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayMidResolver.swift",
       "kind": "StringLiteral",
-      "offset": 6369,
+      "offset": 6485,
       "length": 19,
       "value": "\"processor_details\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTokenRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7589,
+      "offset": 7600,
       "length": 18,
       "value": "\"tap_to_pay_token\""
     },
@@ -5188,35 +5421,35 @@
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3652,
+      "offset": 3751,
       "length": 23,
       "value": "\"masked_account_number\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3704,
+      "offset": 3803,
       "length": 15,
       "value": "\"approval_code\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3743,
+      "offset": 3842,
       "length": 10,
       "value": "\"trace_id\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3781,
+      "offset": 3880,
       "length": 14,
       "value": "\"failure_code\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3826,
+      "offset": 3925,
       "length": 17,
       "value": "\"failure_message\""
     }
