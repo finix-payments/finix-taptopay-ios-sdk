@@ -107,30 +107,36 @@ public struct TapToPayTransactionResult : Swift::Equatable, Swift::Sendable {
   public static func mock(amount: Swift::Int, currency: Swift::String, cardBrand: Swift::String? = "VISA", last4: Swift::String? = "1234", maskedCardNumber: Swift::String? = "**** **** **** 1234", cardType: Swift::String? = "CREDIT", transferId: Swift::String? = nil, transferState: Swift::String? = nil, approvalCode: Swift::String? = nil) -> FinixTapToPaySDK::TapToPayTransactionResult
   public static func == (a: FinixTapToPaySDK::TapToPayTransactionResult, b: FinixTapToPaySDK::TapToPayTransactionResult) -> Swift::Bool
 }
-public enum TapToPayError : Swift::Error, Foundation::LocalizedError, Swift::Equatable, Swift::Sendable {
-  case notSupported
-  case notConfigured
-  case accountNotLinked
-  case readerPreparationFailed(Swift::String?)
-  case transactionCancelled
-  case transactionFailed(Swift::String)
-  case tokenFetchFailed(Swift::String)
-  case midResolutionFailed(Swift::String)
-  case unknown(Swift::String)
-  case accountAlreadyLinked
-  case accountDeactivated
-  case accountLinkingCancelled
-  case accountLinkingCheckFailed
-  case accountLinkingFailed(Swift::String?)
-  case accountLinkingRequiresiCloudSignIn
-  case backgroundRequestNotAllowed
-  case deviceBanned(Foundation::Date?)
-  case emptyReaderToken
-  case invalidMerchant
-  case invalidReaderToken(Swift::String?)
-  case merchantBlocked
-  case modelNotSupported
-  case networkAuthenticationError
+public struct TapToPayError : Swift::Error, Foundation::LocalizedError, Swift::Equatable, Swift::Sendable {
+  public let code: FinixTapToPaySDK::TapToPayError.FinixTapToPaySDK::Code
+  public let logref: Swift::String?
+  public init(_ code: FinixTapToPaySDK::TapToPayError.FinixTapToPaySDK::Code, logref: Swift::String? = nil)
+  public enum Code : Swift::Equatable, Swift::Sendable {
+    case notSupported
+    case notConfigured
+    case accountNotLinked
+    case readerPreparationFailed(Swift::String?)
+    case transactionCancelled
+    case transactionFailed(Swift::String)
+    case tokenFetchFailed(Swift::String)
+    case midResolutionFailed(Swift::String)
+    case unknown(Swift::String)
+    case accountAlreadyLinked
+    case accountDeactivated
+    case accountLinkingCancelled
+    case accountLinkingCheckFailed
+    case accountLinkingFailed(Swift::String?)
+    case accountLinkingRequiresiCloudSignIn
+    case backgroundRequestNotAllowed
+    case deviceBanned(Foundation::Date?)
+    case emptyReaderToken
+    case invalidMerchant
+    case invalidReaderToken(Swift::String?)
+    case merchantBlocked
+    case modelNotSupported
+    case networkAuthenticationError
+    public static func == (a: FinixTapToPaySDK::TapToPayError.FinixTapToPaySDK::Code, b: FinixTapToPaySDK::TapToPayError.FinixTapToPaySDK::Code) -> Swift::Bool
+  }
   public var errorDescription: Swift::String? {
     get
   }
