@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4B5oXiv/jDcyL0Gm88irAovss9Y=
+		k4zf/ulVNdBozPx5Iv+Xxv/mhrU=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FwuIJo/HO3o4KUHwQ1QNt38maUg=
+		LHmmmHb1EBHNjUFnag/mT0LyACA=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		x4AwwKfXL1C9lSIS+HRFkw3KfXo=
+		OfU8fvYRelpsHngewcrg7aS8+D8=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FwuIJo/HO3o4KUHwQ1QNt38maUg=
+		LHmmmHb1EBHNjUFnag/mT0LyACA=
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bK0R5NCFOT4wjxDP2NwAz1vszI4=
+		L9kr2uQlRfCD2yuz9QzHm3YKfC4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oy4JVUG6uYpqBgvm1H11DxLUWIk+fdWRDztxvz2GceM=
+			qldbCeYyp5Kh8DrXBQDKLVm+U9mynrLRZR2awE5IE2o=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -102,14 +102,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wy4SRNXta2Gyzy+MXq23Um9NWK4BiA1iaTELVhzPajY=
+			C6p0xSrQy0vt+GwslL0pI+ecnCmh1YKTmzQatl7q9HA=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oy4JVUG6uYpqBgvm1H11DxLUWIk+fdWRDztxvz2GceM=
+			qldbCeYyp5Kh8DrXBQDKLVm+U9mynrLRZR2awE5IE2o=
 			</data>
 		</dict>
 		<key>Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OPobbmwiIyDSBRQh5e6ROxi/PiE5Oix+whqxfhPhLp0=
+			E5UnLqxrTlegfUDxeFD/dmgtz8aSXKs0xcLU8fdhm4Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
