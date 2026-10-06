@@ -6117,7 +6117,7 @@
       "kind": "StringLiteral",
       "offset": 402,
       "length": 7,
-      "value": "\"1.1.0\""
+      "value": "\"1.2.1\""
     },
     {
       "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
