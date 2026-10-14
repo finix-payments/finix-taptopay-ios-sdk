@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `FinixTapToPay.configurationProgress`: the reader configuration progress (0–100) that Apple reports. While values arrive, show a determinate progress indicator, as Apple's Tap to Pay on iPhone guidelines require. The SDK reads these values from Apple's `PaymentCardReader.events`.
+
 ## [1.2.1] - 2026-10-05
 
 ### Added

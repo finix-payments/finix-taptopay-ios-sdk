@@ -14,6 +14,9 @@ import _SwiftConcurrencyShims
   final public var transactionEvents: Combine::AnyPublisher<FinixTapToPaySDK::TapToPayTransactionEvent, Swift::Never> {
     get
   }
+  final public var configurationProgress: Combine::AnyPublisher<Swift::Int, Swift::Never> {
+    get
+  }
   public init(configuration: FinixTapToPaySDK::TapToPayConfiguration)
   final public func isAccountLinked() async -> Swift::Bool
   final public func linkAccount() async throws
@@ -132,6 +135,12 @@ public struct TapToPayError : Swift::Error, Foundation::LocalizedError, Swift::E
     case merchantBlocked
     case modelNotSupported
     case networkAuthenticationError
+    case readerBusy
+    case sessionInvalidated
+    case requestInterrupted
+    case prepareExpired
+    case readerMemoryFull
+    case passcodeDisabled
     public static func == (a: FinixTapToPaySDK::TapToPayError.FinixTapToPaySDK::Code, b: FinixTapToPaySDK::TapToPayError.FinixTapToPaySDK::Code) -> Swift::Bool
   }
   public var errorDescription: Swift::String? {

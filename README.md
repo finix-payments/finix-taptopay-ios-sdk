@@ -133,6 +133,16 @@ try await tapToPay.prepareReader()
 
 Call this at launch or on foreground once the account is linked. Preparation can take a few seconds on a cold start, so warming early keeps the tap itself responsive.
 
+Apple can configure the reader during preparation, for example before the first use. During configuration, `configurationProgress` publishes the progress as a percentage (0–100). Apple's Tap to Pay on iPhone guidelines require a determinate progress indicator while values arrive. At all other times during preparation, show an indeterminate indicator.
+
+```swift
+let progress = tapToPay.configurationProgress
+    .receive(on: DispatchQueue.main)
+    .sink { percent in showConfigurationProgress(percent) }
+```
+
+Values arrive on a background thread. A new subscriber gets only the values that occur after it subscribes. Configuration can start from any `prepareReader()` call, so subscribe before the first call.
+
 ### 6. Take a payment
 
 ```swift
@@ -275,6 +285,12 @@ Every SDK call throws `TapToPayError`, which conforms to `LocalizedError`. Switc
 | `modelNotSupported` | iPhone model too old | Hide Tap to Pay UI |
 | `networkAuthenticationError` | Network rejected authentication | Check credentials |
 | `backgroundRequestNotAllowed` | Called while backgrounded | Retry in the foreground |
+| `readerBusy` | Reader is processing another operation | Wait and retry |
+| `prepareExpired` | Reader session expired | Call `prepareReader()` again |
+| `readerMemoryFull` | Reader secure element is full | Contact Apple support |
+| `passcodeDisabled` | Device passcode is off | Enable device passcode |
+| `requestInterrupted` | Prepare was interrupted (e.g., app backgrounded) | Retry when foreground |
+| `sessionInvalidated` | Reader session is no longer valid | Call `prepareReader()` again |
 | `unknown(String)` | Unclassified failure | Log and report to Finix |
 
 When the failure came from a Finix API response, `error.logref` carries that response's Finix `logref` (its `x-request-id` header; `nil` for reader-side failures and when no response arrived). Include it when you contact Finix support so we can find the exact request.

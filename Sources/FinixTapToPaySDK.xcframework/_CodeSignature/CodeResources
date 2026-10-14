@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/FinixTapToPaySDK.framework/FinixTapToPaySDK</key>
 		<data>
-		R/TWqlFGFGJIKPdlGgiXS/USUs4=
+		PHuN53J/m0i7mdqWIzt7u2ijx0Y=
 		</data>
 		<key>ios-arm64/FinixTapToPaySDK.framework/Headers/FinixTapToPaySDK-Swift.h</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>ios-arm64/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		LHmmmHb1EBHNjUFnag/mT0LyACA=
+		hvYwN3d46N9ofGCpTwZ8Z6M3ylw=
 		</data>
 		<key>ios-arm64/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		pv5hEAtaXis8QcITVlYf4iw2hOU=
+		n/al6JAoQ4ZxhqhU7newSSl8ahs=
 		</data>
 		<key>ios-arm64/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		J1HciBMxUpB+pP6sasS8gshKYx0=
+		ayeyfZXB6/4hbju4XX07tYjZZl0=
 		</data>
 		<key>ios-arm64/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		6B1IWt1IMMcGy16yDObb+sBaxtI=
+		t57mLxm2jcJOugqVfa2rmVIC/PY=
 		</data>
 		<key>ios-arm64/FinixTapToPaySDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>ios-arm64/FinixTapToPaySDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Fm3blGUoDb9/105x314scUXEto8=
+		DkZ0VXVheg0aD0enEky/7/L7cEY=
 		</data>
 		<key>ios-arm64/dSYMs/FinixTapToPaySDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64/dSYMs/FinixTapToPaySDK.framework.dSYM/Contents/Resources/DWARF/FinixTapToPaySDK</key>
 		<data>
-		cGa5cYyeKr/KjCrqCf5kMv1pC9Q=
+		xouERmsD34leIZz1yVwKn8o4Y7o=
 		</data>
 		<key>ios-arm64/dSYMs/FinixTapToPaySDK.framework.dSYM/Contents/Resources/Relocations/aarch64/FinixTapToPaySDK.yml</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/FinixTapToPaySDK</key>
 		<data>
-		P44+2kh/8jIqYaoWH6GLbUYZ+70=
+		3iq9ecLqvc2JjQLb2d8mwIo60Gc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Headers/FinixTapToPaySDK-Swift.h</key>
 		<data>
@@ -70,35 +70,35 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LHmmmHb1EBHNjUFnag/mT0LyACA=
+		hvYwN3d46N9ofGCpTwZ8Z6M3ylw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ImQV2m4zR5kEuEsYX7QTzjCzDBA=
+		nBmDDCkpwWCHRiHshIGT5BKAm9w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4iwg/6QG7t/ZZYyaBbH0rDqaSp4=
+		G7o08uJLHB3npT/aCNt7kLYjDu4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LoghSJboAFXhVhEX5Ssq6opMm1E=
+		hJTUpuTlE/DydWy8O7dA/JUWgek=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LHmmmHb1EBHNjUFnag/mT0LyACA=
+		hvYwN3d46N9ofGCpTwZ8Z6M3ylw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		r7EmYtJ0iu/hqjKi9lK/Xv9ujs0=
+		bcaA7UlDjceEzj9eTJ8OgSotjiY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		d5kMdvooM6Pt8BDjkRT0fkWwsnw=
+		90mXLJM+iogFZgDDm38SRTS4hXs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ABC3uofY8Y3/fTNQefZPoAr2CfU=
+		4kyeC0IQBjTWNMFOzctfTXl7rJ4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		g7sQJyaCirwbMUFF8lodSniignA=
+		xjnlYfOXzqYwwPmYow97giv1r1k=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FinixTapToPaySDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FinixTapToPaySDK.framework.dSYM/Contents/Resources/DWARF/FinixTapToPaySDK</key>
 		<data>
-		e+jH0Q8cHe2ppq0Hp05HzEyqWIk=
+		+tYkj3kQyPZal/x7qP7yF3VLj/E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FinixTapToPaySDK.framework.dSYM/Contents/Resources/Relocations/aarch64/FinixTapToPaySDK.yml</key>
 		<data>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BRQTmSYwNOzrYF0n0Wjr19Yikv/cjT2zZ4chOqHitXc=
+			Q21iYc0fo/E9n3sej6p+kdesovVyziY5MAJ58mwKwaE=
 			</data>
 		</dict>
 		<key>ios-arm64/FinixTapToPaySDK.framework/Headers/FinixTapToPaySDK-Swift.h</key>
@@ -156,28 +156,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qldbCeYyp5Kh8DrXBQDKLVm+U9mynrLRZR2awE5IE2o=
+			8YsAB9AXbBwhGpkh0Xl1rAbXmjDd6rMBqeVpqHSStoU=
 			</data>
 		</dict>
 		<key>ios-arm64/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6OT7f4NWxSAxVX0+PIcJbmZYB/WNa+tfUYen4qoJrY4=
+			sjZqouM2kdaHnjKoXGnN6orqyXDfGvCG8kAailHs0Tc=
 			</data>
 		</dict>
 		<key>ios-arm64/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3RCApp8Dl9f3P5MKq2jbtlD/eJMvYdy9WI4cHjR3bSU=
+			aX0WKOec8YkM18C2AT6bvx0UdlFzfrpIGLlOg0d1xz0=
 			</data>
 		</dict>
 		<key>ios-arm64/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lpiEAlpT+wTv73hDIG+tpNpDR691z9WmsFGP6eDgqM4=
+			j6lg9TulUPkfSnKmNr0lTAYGmdVECILmHjEXqmFhQiE=
 			</data>
 		</dict>
 		<key>ios-arm64/FinixTapToPaySDK.framework/Modules/module.modulemap</key>
@@ -198,7 +198,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yfDmHnsXV3wU+dTmilxcSmq6lEsWE+svglBbxeWEL/c=
+			cq1sfsa7LfD43NQyTlHSz1qFp/fEU/BfPpRla5Ij+Z0=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/FinixTapToPaySDK.framework.dSYM/Contents/Info.plist</key>
@@ -212,7 +212,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R+1iNhxNiJqHEetiIpMqJcYnRGfKpyDJ38eG7MiVfQw=
+			OoZUdmdHxJqMCCPnWYTtTn3CiCghz4AYKkIomq/elQE=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/FinixTapToPaySDK.framework.dSYM/Contents/Resources/Relocations/aarch64/FinixTapToPaySDK.yml</key>
@@ -226,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wH8f5U7MFFIjVWopiLWou8diHjk0t1BadQsntvDJzGE=
+			FuVKORsqKoncLvDHRqMJ9i6zfBdaE+9llMEBsvUy2EE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Headers/FinixTapToPaySDK-Swift.h</key>
@@ -247,56 +247,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qldbCeYyp5Kh8DrXBQDKLVm+U9mynrLRZR2awE5IE2o=
+			8YsAB9AXbBwhGpkh0Xl1rAbXmjDd6rMBqeVpqHSStoU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MSeUDnXvuT8atBK4axF4Hd9AyKF53UoSjA17uh49Hgo=
+			Zj2oKQ39D3G2uIfqumAZXOpZ/gyMY5fbRDyr5kQgpDg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LOkcJ+wAelLcouvAnKE8e/F4ByjJPmbcGx5HKORWe+4=
+			xdeE9WZCjJ/rJKW0UjY0xZUQW7JGCNvDSwHDhqiQl5s=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oLImJ/+4IQflAeR8S130U8A5DRU4XhCf6aMjk5vqGek=
+			Kwnu+zMcK25qHVSkZSv0dU9vn3GLVOnWvrth6Htmh1Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qldbCeYyp5Kh8DrXBQDKLVm+U9mynrLRZR2awE5IE2o=
+			8YsAB9AXbBwhGpkh0Xl1rAbXmjDd6rMBqeVpqHSStoU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			44v0hZ6/xpZSUouWgghYxS87iq6oTHjhA5U5PQDq9Rk=
+			Qz1PMYTcFq5nXYwL1wKleCO7CMUOCvLKqcwoJOarsL0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UMNBF0vsNLq8Rm6dbk5ipBLRQjGG6fAsmuzF3DqnrGw=
+			cucw4K3C5dKFJ2mnQBqu4IwG75CC1ydwRxWLJvo7ivI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/FinixTapToPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			axKgs3Dg9ZmPaKp7rcAk61iqqRuP1Dewed1jH0iHJ2U=
+			Tk1DinIDWGs6WFxd5nfgKhzIMTh6ib8NWFJi9lXv66g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FinixTapToPaySDK.framework/Modules/module.modulemap</key>
@@ -317,7 +317,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0TCoFqFSBKC1TyBf/zjJtxuZC6rkvAs5GpxDj7SUr74=
+			TMIpcDU5B+8k/1aY/0TNVfzu/8vq9hq6iMdAIKEq+6Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FinixTapToPaySDK.framework.dSYM/Contents/Info.plist</key>
@@ -331,7 +331,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M085ciHdjJju2j3LRp+EK1MqjNMS0F4QFHJkI6A17Uk=
+			xbXxWYBA5S4J/tvxC1J02G/Hct0pp4cm+mThyX7QPs4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/FinixTapToPaySDK.framework.dSYM/Contents/Resources/Relocations/aarch64/FinixTapToPaySDK.yml</key>
