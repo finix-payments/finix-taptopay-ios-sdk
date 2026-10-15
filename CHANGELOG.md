@@ -7,9 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-10-15
+
 ### Added
 
 - `FinixTapToPay.configurationProgress`: the reader configuration progress (0–100) that Apple reports. While values arrive, show a determinate progress indicator, as Apple's Tap to Pay on iPhone guidelines require. The SDK reads these values from Apple's `PaymentCardReader.events`.
+- `TapToPayError.Code` cases for reader-state failures: `readerBusy`, `sessionInvalidated`, `requestInterrupted`, `prepareExpired`, `readerMemoryFull` and `passcodeDisabled`. Several of these Apple errors previously arrived as `unknown`. The README's error table lists the recommended handling for each. Add `@unknown default` to switches over `error.code` so future codes do not break your build.
+
+### Fixed
+
+- The SDK builds on Xcode 26.3. 1.2.0 and 1.2.1 were compiled with a newer Swift toolchain, and Xcode 26.3 rejected their module interface with errors such as `Expected '{' in struct`.
+- `prepareReader()`, `isAccountLinked()`, `linkAccount()` and the card read in `startTransaction` now run one at a time, across every `FinixTapToPay` instance in the app. Overlapping calls, such as a warm-up prepare during a transaction, no longer fail because the reader is busy.
 
 ## [1.2.1] - 2026-10-05
 
