@@ -6293,252 +6293,252 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/FinixHTTPHeaders.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/FinixHTTPHeaders.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 25,
       "value": "\"X-Finix-Referrer-Source\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/FinixHTTPHeaders.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/FinixHTTPHeaders.swift",
       "kind": "StringLiteral",
       "offset": 474,
       "length": 33,
       "value": "\"CARD_PRESENT_IOS_TAP_TO_PAY_SDK\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
       "offset": 9418,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
       "offset": 10652,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
       "offset": 11752,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 2360,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 4605,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 4655,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 4713,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 6250,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 6444,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
       "offset": 2779,
       "length": 32,
       "value": "\"FinixTapToPaySDKDatadogAdapter\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 3947,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 9292,
+      "offset": 9276,
       "length": 37,
       "value": "\"pub955758c645eb9f4643f15afe68f18d78\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 9367,
+      "offset": 9351,
       "length": 18,
       "value": "\"FinixTapToPaySDK\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 9422,
+      "offset": 9406,
       "length": 20,
       "value": "\"finix-taptopay-sdk\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayManager.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayManager.swift",
       "kind": "Array",
       "offset": 1561,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayManager.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1644,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayManager.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayManager.swift",
       "kind": "BooleanLiteral",
       "offset": 5908,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayManager.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayManager.swift",
       "kind": "IntegerLiteral",
       "offset": 6345,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 6,
       "value": "\"SALE\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 288,
       "length": 15,
       "value": "\"AUTHORIZATION\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 322,
       "length": 8,
       "value": "\"REFUND\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPaySDKMetadata.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPaySDKMetadata.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 7,
       "value": "\"1.3.0\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
       "kind": "StringLiteral",
       "offset": 3295,
       "length": 6,
       "value": "\"VISA\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
       "kind": "StringLiteral",
       "offset": 3328,
       "length": 6,
       "value": "\"1234\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
       "kind": "StringLiteral",
       "offset": 3372,
       "length": 21,
       "value": "\"**** **** **** 1234\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
       "kind": "StringLiteral",
       "offset": 3423,
       "length": 8,
       "value": "\"CREDIT\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayMidResolver.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayMidResolver.swift",
       "kind": "StringLiteral",
       "offset": 6208,
       "length": 19,
       "value": "\"processor_details\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTokenRepository.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayTokenRepository.swift",
       "kind": "StringLiteral",
       "offset": 7228,
       "length": 18,
       "value": "\"tap_to_pay_token\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Models\/TapToPayTransferRepository.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayTransferRepository.swift",
       "kind": "StringLiteral",
       "offset": 2302,
       "length": 6,
       "value": "\"SALE\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
       "offset": 3024,
       "length": 23,
       "value": "\"masked_account_number\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
       "offset": 3076,
       "length": 15,
       "value": "\"approval_code\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
       "offset": 3115,
       "length": 10,
       "value": "\"trace_id\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
       "offset": 3153,
       "length": 14,
       "value": "\"failure_code\""
     },
     {
-      "filePath": "\/Volumes\/workspace\/repository\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
+      "filePath": "\/Users\/israrul.haque\/Development\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayTransferRepositoryImpl.swift",
       "kind": "StringLiteral",
       "offset": 3198,
       "length": 17,
