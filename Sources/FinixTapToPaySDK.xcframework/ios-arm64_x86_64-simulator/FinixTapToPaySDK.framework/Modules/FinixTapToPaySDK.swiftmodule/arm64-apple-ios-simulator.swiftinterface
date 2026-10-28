@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios18.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FinixTapToPaySDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios18.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FinixTapToPaySDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import Combine
 import Foundation
 import ProximityReader
@@ -21,13 +21,9 @@ import _SwiftConcurrencyShims
   final public func isAccountLinked() async -> Swift.Bool
   final public func linkAccount() async throws
   final public func prepareReader() async throws
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func startTransaction(amount: Swift.Int, currency: Swift.String, type: FinixTapToPaySDK.TransactionType = .sale, identityId: Swift.String? = nil, surchargeAmount: Swift.Int? = nil, tipAmount: Swift.Int? = nil, promptForSignature: Swift.Bool? = nil) async throws -> FinixTapToPaySDK.TapToPayTransactionResult
-  #endif
   final public func cancelTransaction() async throws
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func setUserInterfaceLanguage(_ language: Foundation.Locale.Language?)
-  #endif
   public static func isSupported() -> Swift.Bool
   final public func clearLinkStatus()
   final public func forceRefreshLinkStatus() async -> Swift.Bool
@@ -83,9 +79,7 @@ public enum TransactionType : Swift.String, Swift.Encodable, Swift.CaseIterable,
   public var displayName: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [FinixTapToPaySDK.TransactionType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [FinixTapToPaySDK.TransactionType] {
@@ -110,17 +104,13 @@ public struct TapToPayTransactionResult : Swift.Equatable, Swift.Sendable {
   public let transferState: Swift.String?
   public let approvalCode: Swift.String?
   public let traceId: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func mock(amount: Swift.Int, currency: Swift.String, cardBrand: Swift.String? = "VISA", last4: Swift.String? = "1234", maskedCardNumber: Swift.String? = "**** **** **** 1234", cardType: Swift.String? = "CREDIT", transferId: Swift.String? = nil, transferState: Swift.String? = nil, approvalCode: Swift.String? = nil) -> FinixTapToPaySDK.TapToPayTransactionResult
-  #endif
   public static func == (a: FinixTapToPaySDK.TapToPayTransactionResult, b: FinixTapToPaySDK.TapToPayTransactionResult) -> Swift.Bool
 }
 public struct TapToPayError : Swift.Error, Foundation.LocalizedError, Swift.Equatable, Swift.Sendable {
   public let code: FinixTapToPaySDK.TapToPayError.Code
   public let logref: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(_ code: FinixTapToPaySDK.TapToPayError.Code, logref: Swift.String? = nil)
-  #endif
   public enum Code : Swift.Equatable, Swift.Sendable {
     case notSupported
     case notConfigured
@@ -153,11 +143,9 @@ public struct TapToPayError : Swift.Error, Foundation.LocalizedError, Swift.Equa
     case passcodeDisabled
     public static func == (a: FinixTapToPaySDK.TapToPayError.Code, b: FinixTapToPaySDK.TapToPayError.Code) -> Swift.Bool
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
   public static func == (a: FinixTapToPaySDK.TapToPayError, b: FinixTapToPaySDK.TapToPayError) -> Swift.Bool
 }
 public enum TapToPayTransactionEvent : Swift.Equatable, Swift.Sendable {
