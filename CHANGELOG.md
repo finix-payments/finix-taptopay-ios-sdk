@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-10-30
+
+### Changed
+
+- CI/CD migrated from Xcode Cloud to Fastlane with GitHub Actions. Unit tests now run on every PR.
+- Reduced verbose logging. Sensitive data (JWTs, device IDs, transaction IDs) no longer appears in remote logs. Transfer IDs and logrefs are preserved as DataDog attributes for support correlation.
+
 ## [1.3.0] - 2026-10-15
 
 ### Added
