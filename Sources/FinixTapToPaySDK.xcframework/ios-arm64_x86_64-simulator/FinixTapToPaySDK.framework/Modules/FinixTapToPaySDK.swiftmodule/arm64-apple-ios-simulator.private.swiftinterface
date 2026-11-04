@@ -122,6 +122,9 @@ public enum TransactionType : Swift.String, Swift.Encodable, Swift.CaseIterable,
     get
   }
 }
+public enum TapToPaySDKMetadata {
+  public static let version: Swift.String
+}
 public struct TapToPayTransactionResult : Swift.Equatable, Swift.Sendable {
   public let amount: Swift.Int
   public let currency: Swift.String
