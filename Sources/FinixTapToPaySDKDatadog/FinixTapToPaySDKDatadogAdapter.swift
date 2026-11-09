@@ -53,13 +53,20 @@ final class FinixTapToPaySDKDatadogAdapter: NSObject, DatadogBootstrapping {
         remoteLogThreshold: DatadogLogLevel,
         consoleLogPrefix: String?
     ) -> DatadogLogSinking {
+        // The Datadog console prints every level. Enable it in a debug build only.
+        #if DEBUG
+            let consoleLogFormat: Logger.Configuration.ConsoleLogFormat? =
+                consoleLogPrefix.map { .shortWith(prefix: $0) } ?? .short
+        #else
+            let consoleLogFormat: Logger.Configuration.ConsoleLogFormat? = nil
+        #endif
         let logger = Logger.create(
             with: Logger.Configuration(
                 service: service,
                 name: name,
                 networkInfoEnabled: true,
                 remoteLogThreshold: remoteLogThreshold.logLevel,
-                consoleLogFormat: consoleLogPrefix.map { .shortWith(prefix: $0) } ?? .short
+                consoleLogFormat: consoleLogFormat
             ),
             in: Datadog.sdkInstance(named: instanceName)
         )

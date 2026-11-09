@@ -6552,21 +6552,21 @@
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 7602,
+      "offset": 7591,
       "length": 37,
       "value": "\"pub955758c645eb9f4643f15afe68f18d78\""
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 7677,
+      "offset": 7666,
       "length": 18,
       "value": "\"FinixTapToPaySDK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 7732,
+      "offset": 7721,
       "length": 20,
       "value": "\"finix-taptopay-sdk\""
     },
