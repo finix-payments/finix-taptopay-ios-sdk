@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `TapToPayConfiguration(consoleNetworkLoggingEnabled:)`: set it to `true` to print each Finix API request and response (method, URL, headers, status, duration and JSON body) to the Xcode console. The output stays on the device and never goes to Finix. The SDK redacts the `Authorization` header, tokens and the encrypted card data. The default is `false`. Enable it in debug builds only.
+
 ## [1.4.0] - 2026-10-30
 
 ### Changed

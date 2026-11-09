@@ -903,6 +903,51 @@
           },
           {
             "kind": "Var",
+            "name": "consoleNetworkLoggingEnabled",
+            "printedName": "consoleNetworkLoggingEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV28consoleNetworkLoggingEnabledSbvp",
+            "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV28consoleNetworkLoggingEnabledSbvp",
+            "moduleName": "FinixTapToPaySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV28consoleNetworkLoggingEnabledSbvg",
+                "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV28consoleNetworkLoggingEnabledSbvg",
+                "moduleName": "FinixTapToPaySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "referrerSource",
             "printedName": "referrerSource",
             "children": [
@@ -949,7 +994,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(credentials:merchant:environment:deviceId:transactionOptions:crashReportingEnabled:)",
+            "printedName": "init(credentials:merchant:environment:deviceId:transactionOptions:crashReportingEnabled:consoleNetworkLoggingEnabled:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -994,11 +1039,18 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV11credentials8merchant11environment8deviceId18transactionOptions21crashReportingEnabledA2C14APICredentialsV_AC12MerchantInfoVAC11EnvironmentOSSAC011TransactionM0VSbtcfc",
-            "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV11credentials8merchant11environment8deviceId18transactionOptions21crashReportingEnabledA2C14APICredentialsV_AC12MerchantInfoVAC11EnvironmentOSSAC011TransactionM0VSbtcfc",
+            "usr": "s:16FinixTapToPaySDK0bcD13ConfigurationV11credentials8merchant11environment8deviceId18transactionOptions21crashReportingEnabled021consoleNetworkLoggingP0A2C14APICredentialsV_AC12MerchantInfoVAC11EnvironmentOSSAC011TransactionM0VS2btcfc",
+            "mangledName": "$s16FinixTapToPaySDK0bcD13ConfigurationV11credentials8merchant11environment8deviceId18transactionOptions21crashReportingEnabled021consoleNetworkLoggingP0A2C14APICredentialsV_AC12MerchantInfoVAC11EnvironmentOSSAC011TransactionM0VS2btcfc",
             "moduleName": "FinixTapToPaySDK",
             "declAttributes": [
               "AccessControl",
@@ -6387,99 +6439,134 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9666,
+      "length": 12,
+      "value": "\"[REDACTED]\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
+      "kind": "Array",
+      "offset": 9725,
+      "length": 54,
+      "value": "[\"authorization\", \"x-api-key\", \"cookie\", \"set-cookie\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
+      "kind": "Array",
+      "offset": 9827,
+      "length": 23,
+      "value": "[\"encrypted_card_data\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
+      "kind": "Array",
+      "offset": 9901,
+      "length": 31,
+      "value": "[\"token\", \"password\", \"secret\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 9095,
+      "offset": 13863,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 10194,
+      "offset": 14962,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/SecureHTTPClient.swift",
       "kind": "Dictionary",
-      "offset": 11157,
+      "offset": 15925,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2360,
+      "offset": 2842,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 4605,
+      "offset": 2893,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5345,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 4655,
+      "offset": 5395,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 4713,
+      "offset": 5453,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 6250,
+      "offset": 6990,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6444,
+      "offset": 7184,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2779,
+      "offset": 2417,
       "length": 32,
       "value": "\"FinixTapToPaySDKDatadogAdapter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "BooleanLiteral",
-      "offset": 3947,
+      "offset": 3585,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 9276,
+      "offset": 7602,
       "length": 37,
       "value": "\"pub955758c645eb9f4643f15afe68f18d78\""
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 9351,
+      "offset": 7677,
       "length": 18,
       "value": "\"FinixTapToPaySDK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayLogger.swift",
       "kind": "StringLiteral",
-      "offset": 9406,
+      "offset": 7732,
       "length": 20,
       "value": "\"finix-taptopay-sdk\""
     },
@@ -6514,7 +6601,7 @@
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayManager.swift",
       "kind": "Dictionary",
-      "offset": 40846,
+      "offset": 40922,
       "length": 3,
       "value": "[]"
     },
@@ -6584,7 +6671,7 @@
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Internal\/TapToPayTokenRepository.swift",
       "kind": "StringLiteral",
-      "offset": 3729,
+      "offset": 3805,
       "length": 18,
       "value": "\"tap_to_pay_token\""
     },

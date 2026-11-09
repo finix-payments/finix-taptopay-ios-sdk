@@ -42,8 +42,9 @@ public struct TapToPayConfiguration : Swift.Sendable {
   public let transactionOptions: FinixTapToPaySDK.TapToPayConfiguration.TransactionOptions
   public let deviceId: Swift.String
   public let crashReportingEnabled: Swift.Bool
+  public let consoleNetworkLoggingEnabled: Swift.Bool
   public let referrerSource: Swift.String
-  public init(credentials: FinixTapToPaySDK.TapToPayConfiguration.APICredentials, merchant: FinixTapToPaySDK.TapToPayConfiguration.MerchantInfo, environment: FinixTapToPaySDK.TapToPayConfiguration.Environment, deviceId: Swift.String, transactionOptions: FinixTapToPaySDK.TapToPayConfiguration.TransactionOptions = TransactionOptions(), crashReportingEnabled: Swift.Bool = true)
+  public init(credentials: FinixTapToPaySDK.TapToPayConfiguration.APICredentials, merchant: FinixTapToPaySDK.TapToPayConfiguration.MerchantInfo, environment: FinixTapToPaySDK.TapToPayConfiguration.Environment, deviceId: Swift.String, transactionOptions: FinixTapToPaySDK.TapToPayConfiguration.TransactionOptions = TransactionOptions(), crashReportingEnabled: Swift.Bool = true, consoleNetworkLoggingEnabled: Swift.Bool = false)
   public struct TransactionOptions : Swift.Sendable {
     public let returnReadResultImmediately: Swift.Bool
     public let autoPrepareOnForeground: Swift.Bool

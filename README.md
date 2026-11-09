@@ -317,6 +317,50 @@ Card data never passes through Finix in the clear — Apple encrypts it in the s
 
 The package depends on Datadog's `dd-sdk-ios` (3.6.1 or later 3.x) for diagnostics. Swift Package Manager adds it for you. If your app also uses Datadog, both share one copy, and the SDK logs to its own Datadog instance without touching yours.
 
+## Console network logging
+
+To see each Finix API request and response in the Xcode console, set `consoleNetworkLoggingEnabled` to `true`. Enable it in debug builds only:
+
+```swift
+#if DEBUG
+    let consoleNetworkLogging = true
+#else
+    let consoleNetworkLogging = false
+#endif
+
+TapToPayConfiguration(/* … */, consoleNetworkLoggingEnabled: consoleNetworkLogging)
+```
+
+The SDK prints each request with its method, full URL, headers and JSON body. It prints each response with its status, duration, headers and body. A failed connection prints one `FAILED` line:
+
+```
+[TTP] [HTTP] REQUEST POST https://cardpresent-orchestrator-http.sb.finixops.com/card_reader/transfers
+Headers:
+  Authorization: [REDACTED]
+  Content-Type: application/json
+  …
+Body:
+{
+  "amount" : 1000,
+  "tap_to_pay_card_details" : {
+    "encrypted_card_data" : "[REDACTED]"
+  },
+  …
+}
+[TTP] [HTTP] RESPONSE 201 POST https://cardpresent-orchestrator-http.sb.finixops.com/card_reader/transfers (412 ms)
+Headers:
+  x-request-id: 8f1c2e7a-…
+  …
+```
+
+The output stays on the device. The SDK does not send it to Finix. The SDK writes it with `print`, so it shows in the Xcode console and not in the device log (Console.app). Before it prints, the SDK replaces these values with `[REDACTED]`:
+
+- The `Authorization` header, which carries your API credentials
+- The Tap to Pay token, and any other field whose name contains `token`, `password` or `secret`
+- The encrypted card data
+
+The `x-request-id` response header is the `logref`. Include it when you contact Finix support. The default is `false`.
+
 ## Troubleshooting
 
 | Symptom | Cause |
