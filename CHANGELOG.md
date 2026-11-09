@@ -7,9 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.1] - 2026-11-09
+
 ### Added
 
 - `TapToPayConfiguration(consoleNetworkLoggingEnabled:)`: set it to `true` to print each Finix API request and response (method, URL, headers, status, duration and JSON body) to the Xcode console. The output stays on the device and never goes to Finix. The SDK redacts the `Authorization` header, tokens and the encrypted card data. The default is `false`. Enable it in debug builds only.
+- `TapToPaySDKMetadata.version`: the SDK version string, for example to include in your own logs or support requests.
+
+### Changed
+
+- The SDK's remote logs follow consistent conventions. Each message starts with a tag that names the SDK area, such as `[READER]`, `[LINK]` or `[TXN]`, and variable data moves into attributes. Some setup and lifecycle messages are now `debug` level, so they no longer leave the device. `LOGGING.md` lists the tags.
+- The SDK prints its logs to the Xcode console in debug builds of your app only. Release builds no longer print them. The console output comes from the `FinixTapToPaySDKDatadog` adapter.
 
 ## [1.4.0] - 2026-10-30
 

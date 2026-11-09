@@ -6631,7 +6631,7 @@
       "kind": "StringLiteral",
       "offset": 281,
       "length": 7,
-      "value": "\"1.4.0\""
+      "value": "\"1.4.1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/taptopay-ios-sdk\/taptopay-ios-sdk\/FinixTapToPaySDK\/Models\/TapToPayModels.swift",
